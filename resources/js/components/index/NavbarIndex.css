@@ -1,0 +1,15 @@
+#navbarcolorTransparent{
+	background-color: rgba(0,0,0,0)!important;
+}
+
+#navbarcolor{
+	background-color: rgba(125,125,125,.5)!important;
+}
+
+#brandName{
+	font-size: 31px;
+}
+
+.nav-link > .active {
+    border-bottom: 1px solid #333;
+}
