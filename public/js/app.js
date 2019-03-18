@@ -6736,7 +6736,7 @@ exports = module.exports = __webpack_require__(/*! ../../../../node_modules/css-
 
 
 // module
-exports.push([module.i, "\r\n\r\n#about{\r\n   width: 100%;\r\n   height: 665px;\r\n   background-image: url(\"/images/ngerti.net.png\");\r\n   background-position: center;\r\n   background-repeat: no-repeat;\r\n   background-size: cover;\r\n}\r\n\r\nfooter{\r\n\tbackground-color: rgba(125,125,125,.5);\r\n\theight: 100px;\r\n}", ""]);
+exports.push([module.i, "\r\n\r\n#about{\r\n   width: 100%;\r\n   height: 665px;\r\n   background-image: url(\"/images/ngerti.net.png\");\r\n   background-position: center;\r\n   background-repeat: no-repeat;\r\n   background-size: cover;\r\n}\r\n\r\nfooter{\r\n\tbackground-color: rgba(125,125,125,.5);\r\n\theight: 100px;\r\n}\r\n\r\n\r\n/* Medium Layout: 1280px. */\r\n\r\n@media only screen and (min-width: 992px) and (max-width: 1200px) {\r\n\r\n\r\n}\r\n\r\n\r\n/* Tablet Layout: 768px. */\r\n\r\n@media only screen and (min-width: 768px) and (max-width: 991px) {\r\n\r\n   \r\n}\r\n\r\n\r\n/* Mobile Layout: 320px. */\r\n\r\n@media only screen and (max-width: 767px) {\r\n\r\n\t#about{\r\n\t    height: auto;\r\n\t}\r\n\r\n}\r\n\r\n\r\n/* Wide Mobile Layout: 480px. */\r\n\r\n@media only screen and (min-width: 480px) and (max-width: 767px) {\r\n\r\n\t#about{\r\n\t    height: auto;\r\n\t}\r\n\r\n\r\n}\r\n\r\n    \r\n@media only screen and (min-width: 320px) and (max-width: 479px) {\r\n    \r\n\t#about{\r\n\t    height: 755px;\r\n\t    background-size: contain;\r\n\t    background-color: #2EAEEF;\r\n\t}\r\n\r\n\r\n}", ""]);
 
 // exports
 
@@ -6774,7 +6774,7 @@ exports = module.exports = __webpack_require__(/*! ../../../../node_modules/css-
 
 
 // module
-exports.push([module.i, "section{\r\n\twidth: 100%;\r\n    height: 665px;\r\n}\r\n\r\nsection img{\r\n\twidth: 80%;\r\n    height: 465px;\r\n}\r\n\r\nsection p{\r\n\tmargin: 0px 100px; \r\n}", ""]);
+exports.push([module.i, "section{\r\n\twidth: 100%;\r\n    height: 665px;\r\n}\r\n\r\nsection img{\r\n\twidth: 80%;\r\n    height: 465px;\r\n}\r\n\r\nsection p{\r\n\tmargin: 0px 100px; \r\n}\r\n\r\n\r\n/* Medium Layout: 1280px. */\r\n\r\n@media only screen and (min-width: 992px) and (max-width: 1200px) {\r\n\r\n\r\n}\r\n\r\n\r\n/* Tablet Layout: 768px. */\r\n\r\n@media only screen and (min-width: 768px) and (max-width: 991px) {\r\n\r\n   \r\n}\r\n\r\n\r\n/* Mobile Layout: 320px. */\r\n\r\n@media only screen and (max-width: 767px) {\r\n\r\n\tsection{\r\n\t    height: auto;\r\n\t}\r\n\r\n}\r\n\r\n\r\n/* Wide Mobile Layout: 480px. */\r\n\r\n@media only screen and (min-width: 480px) and (max-width: 767px) {\r\n\r\n\tsection{\r\n\t    height: auto;\r\n\t}\r\n\r\n\r\n}\r\n\r\n    \r\n@media only screen and (min-width: 320px) and (max-width: 479px) {\r\n    \r\n\tsection{\r\n\t    height: auto;\r\n\t}\r\n\r\n\tsection img{\r\n\t\twidth: 80%;\r\n\t    height: 377px;\r\n\t}\r\n\r\n\r\n}", ""]);
 
 // exports
 

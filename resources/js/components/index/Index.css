@@ -13,3 +13,54 @@ footer{
 	background-color: rgba(125,125,125,.5);
 	height: 100px;
 }
+
+
+/* Medium Layout: 1280px. */
+
+@media only screen and (min-width: 992px) and (max-width: 1200px) {
+
+
+}
+
+
+/* Tablet Layout: 768px. */
+
+@media only screen and (min-width: 768px) and (max-width: 991px) {
+
+   
+}
+
+
+/* Mobile Layout: 320px. */
+
+@media only screen and (max-width: 767px) {
+
+	#about{
+	    height: auto;
+	}
+
+}
+
+
+/* Wide Mobile Layout: 480px. */
+
+@media only screen and (min-width: 480px) and (max-width: 767px) {
+
+	#about{
+	    height: auto;
+	}
+
+
+}
+
+    
+@media only screen and (min-width: 320px) and (max-width: 479px) {
+    
+	#about{
+	    height: 755px;
+	    background-size: contain;
+	    background-color: #2EAEEF;
+	}
+
+
+}
