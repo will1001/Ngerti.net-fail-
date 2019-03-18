@@ -1,5 +1,5 @@
 import React, { Component,Fragment } from 'react'
-import { Navbar,Nav,NavDropdown,Form,FormControl,Button,img } from 'react-bootstrap'
+import { Navbar,Nav,NavDropdown,Form,FormControl,Button,img,Container } from 'react-bootstrap'
 import { Link, animateScroll as scroll } from "react-scroll";
 
 import  './NavbarIndex.css'
@@ -25,65 +25,93 @@ import  './NavbarIndex.css'
         const NavbarBackgroundColor = (this.state.scrollPositionY > 600) ? 'navbarcolor' : 'navbarcolorTransparent';
         return (
             <Fragment>
-              <>
                 <Navbar bg="dark" variant="dark" expand="lg" fixed="top" id={NavbarBackgroundColor}>
-                  <Navbar.Brand href="#home">
-                    <Link
-                      activeClass="active"
-                      to="home"
-                      spy={true}
-                      smooth={true}
-                      offset={0}
-                      duration={1000}
-                    >
-                      <img
-                      alt=""
-                      src="/images/favicon.png"
-                      width="50"
-                      height="50"
-                      className="d-inline-block align-top"
-                      />
-                      <span id="brandName">{' Ngerti.net '}</span>
-                    </Link>
-                  </Navbar.Brand>
-                  <Navbar.Toggle aria-controls="basic-navbar-nav" />
-                  <Navbar.Collapse id="basic-navbar-nav">
-                    <Nav className="ml-auto" defaultActiveKey="#home">
-                      <Nav.Link href="#home">
-                        <Link
-                          activeClass="active"
-                          to="home"
-                          spy={true}
-                          smooth={true}
-                          offset={0}
-                          duration={1000}
-                        >
-                          Home
-                        </Link>
-                      </Nav.Link>
-                      <Nav.Link href="#about">
-                        <Link
-                          activeClass="active"
-                          to="about"
-                          spy={true}
-                          smooth={true}
-                          offset={0}
-                          duration={1000}
-                        >
-                          About
-                        </Link>
-                      </Nav.Link>
-                      <NavDropdown title="Dropdown" id="basic-nav-dropdown">
-                        <NavDropdown.Item href="#action/3.1">Action</NavDropdown.Item>
-                        <NavDropdown.Item href="#action/3.2">Another action</NavDropdown.Item>
-                        <NavDropdown.Item href="#action/3.3">Something</NavDropdown.Item>
-                        <NavDropdown.Divider />
-                        <NavDropdown.Item href="#action/3.4">Separated link</NavDropdown.Item>
-                      </NavDropdown>
-                    </Nav>
-                  </Navbar.Collapse>
+                  <Container fluid="true">
+                    <Navbar.Brand href="#about">
+                      <Link
+                        activeClass="active"
+                        to="about"
+                        spy={true}
+                        smooth={true}
+                        offset={0}
+                        duration={1000}
+                      >
+                        <img
+                        alt=""
+                        src="/images/favicon.png"
+                        width="50"
+                        height="50"
+                        className="d-inline-block align-top"
+                        />
+                        <span id="brandName">{' ngerti.net '}</span>
+                      </Link>
+                    </Navbar.Brand>
+                    <Navbar.Toggle aria-controls="basic-navbar-nav" />
+                    <Navbar.Collapse id="basic-navbar-nav">
+                      <Nav className="mr-auto text-uppercase" defaultActiveKey="#home">
+                        <NavDropdown title="paket" id="basic-nav-dropdown">
+                          <NavDropdown.Item href="#paketinstan">
+                            <Link
+                              activeClass="active"
+                              to="paketinstan"
+                              spy={true}
+                              smooth={true}
+                              offset={-71}
+                              duration={1000}
+                            >
+                            paket instan
+                            </Link>
+                          </NavDropdown.Item>
+                          <NavDropdown.Divider />
+                          <NavDropdown.Item href="#paketbulanan">
+                            <Link
+                              activeClass="active"
+                              to="paketbulanan"
+                              spy={true}
+                              smooth={true}
+                              offset={-71}
+                              duration={1000}
+                            >
+                            paket bulanan
+                            </Link>
+                          </NavDropdown.Item>
+                          <NavDropdown.Divider />
+                          <NavDropdown.Item href="#paketgroup">
+                            <Link
+                              activeClass="active"
+                              to="paketgroup"
+                              spy={true}
+                              smooth={true}
+                              offset={-71}
+                              duration={1000}
+                            >
+                            paket group
+                            </Link>
+                          </NavDropdown.Item>
+                          <NavDropdown.Divider />
+                          <NavDropdown.Item href="#paketintensif">
+                            <Link
+                              activeClass="active"
+                              to="paketintensif"
+                              spy={true}
+                              smooth={true}
+                              offset={-71}
+                              duration={1000}
+                            >
+                            paket intensif
+                            </Link>
+                          </NavDropdown.Item>
+                        </NavDropdown>
+                        <Nav.Link href="/register">
+                            Join as Teacher
+                        </Nav.Link>
+                        <Nav.Link href="/register">
+                            Join as Student
+                        </Nav.Link>
+                      </Nav>
+                    </Navbar.Collapse>
+                  </Container>
                 </Navbar>
-              </>
             </Fragment>
         )
       }

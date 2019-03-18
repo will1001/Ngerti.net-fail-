@@ -7,9 +7,10 @@
 
         <!-- CSRF Token -->
         <meta name="csrf-token" content="{{ csrf_token() }}">
-        <title>Ngerti.net</title>
+        <title>ngerti.net</title>
         <!-- Styles -->
         <link href="{{ asset('css/app.css') }}" rel="stylesheet">
+        <link href="{{ asset('css/all.css') }}" rel="stylesheet">
         <link rel="shortcut icon" href="{{ asset('/images/favicon.png') }}">
 
     </head>

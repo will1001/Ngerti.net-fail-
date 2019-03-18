@@ -1,12 +1,15 @@
-section{
-	width: 100%;
-    height: 665px;
-}
 
-#home{
-   background-image: url("/images/book-books-bookshelf-159621.jpg");
 
+#about{
+   width: 100%;
+   height: 665px;
+   background-image: url("/images/ngerti.net.png");
    background-position: center;
    background-repeat: no-repeat;
    background-size: cover;
+}
+
+footer{
+	background-color: rgba(125,125,125,.5);
+	height: 100px;
 }

@@ -1,3 +1,7 @@
+.navbar{
+	width: 100%;
+}
+
 #navbarcolorTransparent{
 	background-color: rgba(0,0,0,0)!important;
 }
@@ -10,6 +14,11 @@
 	font-size: 31px;
 }
 
-.nav-link > .active {
-    border-bottom: 1px solid #333;
+.nav-link {
+	color: white!important;
+}
+.nav-link:hover {
+	color: black!important;
+	background-color: rgba(255,255,255,.5);
+	transition : 1s;
 }
