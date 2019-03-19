@@ -2,16 +2,19 @@
 
 #about{
    width: 100%;
-   height: 665px;
-   background-image: url("/images/ngerti.net.png");
-   background-position: center;
-   background-repeat: no-repeat;
-   background-size: cover;
+   height: 680px;
+   background-color: #2EAEEF;
+}
+
+#about h1{
+   font-family: Berlin Sans FB;
+   font-weight: bold;
+   font-size: 133px;
+   padding-top: 17%;
 }
 
 footer{
 	background-color: rgba(125,125,125,.5);
-	height: 100px;
 }
 
 
@@ -59,7 +62,11 @@ footer{
 	#about{
 	    height: 755px;
 	    background-size: contain;
-	    background-color: #2EAEEF;
+	}
+
+	#about h1{
+	    font-size: 75px;
+    	padding-top: 83%;
 	}
 
 

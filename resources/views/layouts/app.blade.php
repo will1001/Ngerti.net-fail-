@@ -21,8 +21,8 @@
       <nav class="navbar navbar-dark bg-dark navbar-expand-lg" id="navbarcolor">
         <div class="container-fluid">
           <a class="navbar-brand" href="/">
-          <img src="/images/favicon.png" width="50" height="50" class="d-inline-block align-top" alt="">
-          <span id="brandName">ngerti.net</span>
+          <img src="/images/favicon.png" width="30" height="30" class="d-inline-block align-top" alt="">
+          <span id="brandName">HOME</span>
         </a>
         <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
           <span class="navbar-toggler-icon"></span>

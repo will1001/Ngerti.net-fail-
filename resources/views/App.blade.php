@@ -11,6 +11,7 @@
         <!-- Styles -->
         <link href="{{ asset('css/app.css') }}" rel="stylesheet">
         <link href="{{ asset('css/all.css') }}" rel="stylesheet">
+        <link href="{{ asset('https://fonts.googleapis.com/css?family=Berlin+Sans+FB+Demi') }}" rel="stylesheet">
         <link rel="shortcut icon" href="{{ asset('/images/favicon.png') }}">
 
     </head>

@@ -4,12 +4,12 @@ section{
 }
 
 section img{
-	width: 80%;
+	width: 70%;
     height: 465px;
 }
 
 section p{
-	margin: 0px 100px; 
+	margin: 31px 100px; 
 }
 
 
@@ -56,11 +56,16 @@ section p{
     
 	section{
 	    height: auto;
+	    margin: 51px 0px;
 	}
 
 	section img{
-		width: 80%;
-	    height: 377px;
+		width: 100%;
+	    height: auto;
+	}
+
+	section p{
+		margin: 21px 9px; 
 	}
 
 

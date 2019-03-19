@@ -13,6 +13,7 @@ import NavbarIndex from './NavbarIndex'
             <Fragment>
                 <NavbarIndex/>
                 <section id="about">
+                    <h1 className="text-center text-light">ngerti.net</h1>
                 </section>
 
              <Section 

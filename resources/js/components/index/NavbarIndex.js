@@ -39,11 +39,11 @@ import  './NavbarIndex.css'
                         <img
                         alt=""
                         src="/images/favicon.png"
-                        width="50"
-                        height="50"
+                        width="30"
+                        height="30"
                         className="d-inline-block align-top"
                         />
-                        <span id="brandName">{' ngerti.net '}</span>
+                        <span id="brandName">{' HOME '}</span>
                       </Link>
                     </Navbar.Brand>
                     <Navbar.Toggle aria-controls="basic-navbar-nav" />
@@ -107,6 +107,9 @@ import  './NavbarIndex.css'
                         </Nav.Link>
                         <Nav.Link href="/register">
                             Join as Student
+                        </Nav.Link>
+                        <Nav.Link href="/login">
+                            Login
                         </Nav.Link>
                       </Nav>
                     </Navbar.Collapse>

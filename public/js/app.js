@@ -6736,7 +6736,7 @@ exports = module.exports = __webpack_require__(/*! ../../../../node_modules/css-
 
 
 // module
-exports.push([module.i, "\r\n\r\n#about{\r\n   width: 100%;\r\n   height: 665px;\r\n   background-image: url(\"/images/ngerti.net.png\");\r\n   background-position: center;\r\n   background-repeat: no-repeat;\r\n   background-size: cover;\r\n}\r\n\r\nfooter{\r\n\tbackground-color: rgba(125,125,125,.5);\r\n\theight: 100px;\r\n}\r\n\r\n\r\n/* Medium Layout: 1280px. */\r\n\r\n@media only screen and (min-width: 992px) and (max-width: 1200px) {\r\n\r\n\r\n}\r\n\r\n\r\n/* Tablet Layout: 768px. */\r\n\r\n@media only screen and (min-width: 768px) and (max-width: 991px) {\r\n\r\n   \r\n}\r\n\r\n\r\n/* Mobile Layout: 320px. */\r\n\r\n@media only screen and (max-width: 767px) {\r\n\r\n\t#about{\r\n\t    height: auto;\r\n\t}\r\n\r\n}\r\n\r\n\r\n/* Wide Mobile Layout: 480px. */\r\n\r\n@media only screen and (min-width: 480px) and (max-width: 767px) {\r\n\r\n\t#about{\r\n\t    height: auto;\r\n\t}\r\n\r\n\r\n}\r\n\r\n    \r\n@media only screen and (min-width: 320px) and (max-width: 479px) {\r\n    \r\n\t#about{\r\n\t    height: 755px;\r\n\t    background-size: contain;\r\n\t    background-color: #2EAEEF;\r\n\t}\r\n\r\n\r\n}", ""]);
+exports.push([module.i, "\r\n\r\n#about{\r\n   width: 100%;\r\n   height: 680px;\r\n   background-color: #2EAEEF;\r\n}\r\n\r\n#about h1{\r\n   font-family: Berlin Sans FB;\r\n   font-weight: bold;\r\n   font-size: 133px;\r\n   padding-top: 17%;\r\n}\r\n\r\nfooter{\r\n\tbackground-color: rgba(125,125,125,.5);\r\n}\r\n\r\n\r\n/* Medium Layout: 1280px. */\r\n\r\n@media only screen and (min-width: 992px) and (max-width: 1200px) {\r\n\r\n\r\n}\r\n\r\n\r\n/* Tablet Layout: 768px. */\r\n\r\n@media only screen and (min-width: 768px) and (max-width: 991px) {\r\n\r\n   \r\n}\r\n\r\n\r\n/* Mobile Layout: 320px. */\r\n\r\n@media only screen and (max-width: 767px) {\r\n\r\n\t#about{\r\n\t    height: auto;\r\n\t}\r\n\r\n}\r\n\r\n\r\n/* Wide Mobile Layout: 480px. */\r\n\r\n@media only screen and (min-width: 480px) and (max-width: 767px) {\r\n\r\n\t#about{\r\n\t    height: auto;\r\n\t}\r\n\r\n\r\n}\r\n\r\n    \r\n@media only screen and (min-width: 320px) and (max-width: 479px) {\r\n    \r\n\t#about{\r\n\t    height: 755px;\r\n\t    background-size: contain;\r\n\t}\r\n\r\n\t#about h1{\r\n\t    font-size: 75px;\r\n    \tpadding-top: 83%;\r\n\t}\r\n\r\n\r\n}", ""]);
 
 // exports
 
@@ -6755,7 +6755,7 @@ exports = module.exports = __webpack_require__(/*! ../../../../node_modules/css-
 
 
 // module
-exports.push([module.i, ".navbar{\r\n\twidth: 100%;\r\n}\r\n\r\n#navbarcolorTransparent{\r\n\tbackground-color: rgba(0,0,0,0)!important;\r\n}\r\n\r\n#navbarcolor{\r\n\tbackground-color: rgba(125,125,125,.5)!important;\r\n}\r\n\r\n#brandName{\r\n\tfont-size: 31px;\r\n}\r\n\r\n.nav-link {\r\n\tcolor: white!important;\r\n}\r\n.nav-link:hover {\r\n\tcolor: black!important;\r\n\tbackground-color: rgba(255,255,255,.5);\r\n\ttransition : 1s;\r\n}\r\n", ""]);
+exports.push([module.i, ".navbar{\r\n\twidth: 100%;\r\n}\r\n\r\n#navbarcolorTransparent{\r\n\tbackground-color: rgba(0,0,0,0)!important;\r\n}\r\n\r\n#navbarcolor{\r\n\tbackground-color: rgba(125,125,125,.5)!important;\r\n}\r\n\r\n#brandName{\r\n}\r\n\r\n.nav-link {\r\n\tcolor: white!important;\r\n}\r\n.nav-link:hover {\r\n\tcolor: black!important;\r\n\tbackground-color: rgba(255,255,255,.5);\r\n\ttransition : 1s;\r\n}\r\n", ""]);
 
 // exports
 
@@ -6774,7 +6774,7 @@ exports = module.exports = __webpack_require__(/*! ../../../../node_modules/css-
 
 
 // module
-exports.push([module.i, "section{\r\n\twidth: 100%;\r\n    height: 665px;\r\n}\r\n\r\nsection img{\r\n\twidth: 80%;\r\n    height: 465px;\r\n}\r\n\r\nsection p{\r\n\tmargin: 0px 100px; \r\n}\r\n\r\n\r\n/* Medium Layout: 1280px. */\r\n\r\n@media only screen and (min-width: 992px) and (max-width: 1200px) {\r\n\r\n\r\n}\r\n\r\n\r\n/* Tablet Layout: 768px. */\r\n\r\n@media only screen and (min-width: 768px) and (max-width: 991px) {\r\n\r\n   \r\n}\r\n\r\n\r\n/* Mobile Layout: 320px. */\r\n\r\n@media only screen and (max-width: 767px) {\r\n\r\n\tsection{\r\n\t    height: auto;\r\n\t}\r\n\r\n}\r\n\r\n\r\n/* Wide Mobile Layout: 480px. */\r\n\r\n@media only screen and (min-width: 480px) and (max-width: 767px) {\r\n\r\n\tsection{\r\n\t    height: auto;\r\n\t}\r\n\r\n\r\n}\r\n\r\n    \r\n@media only screen and (min-width: 320px) and (max-width: 479px) {\r\n    \r\n\tsection{\r\n\t    height: auto;\r\n\t}\r\n\r\n\tsection img{\r\n\t\twidth: 80%;\r\n\t    height: 377px;\r\n\t}\r\n\r\n\r\n}", ""]);
+exports.push([module.i, "section{\r\n\twidth: 100%;\r\n    height: 665px;\r\n}\r\n\r\nsection img{\r\n\twidth: 70%;\r\n    height: 465px;\r\n}\r\n\r\nsection p{\r\n\tmargin: 31px 100px; \r\n}\r\n\r\n\r\n/* Medium Layout: 1280px. */\r\n\r\n@media only screen and (min-width: 992px) and (max-width: 1200px) {\r\n\r\n\r\n}\r\n\r\n\r\n/* Tablet Layout: 768px. */\r\n\r\n@media only screen and (min-width: 768px) and (max-width: 991px) {\r\n\r\n   \r\n}\r\n\r\n\r\n/* Mobile Layout: 320px. */\r\n\r\n@media only screen and (max-width: 767px) {\r\n\r\n\tsection{\r\n\t    height: auto;\r\n\t}\r\n\r\n}\r\n\r\n\r\n/* Wide Mobile Layout: 480px. */\r\n\r\n@media only screen and (min-width: 480px) and (max-width: 767px) {\r\n\r\n\tsection{\r\n\t    height: auto;\r\n\t}\r\n\r\n\r\n}\r\n\r\n    \r\n@media only screen and (min-width: 320px) and (max-width: 479px) {\r\n    \r\n\tsection{\r\n\t    height: auto;\r\n\t    margin: 51px 0px;\r\n\t}\r\n\r\n\tsection img{\r\n\t\twidth: 100%;\r\n\t    height: auto;\r\n\t}\r\n\r\n\tsection p{\r\n\t\tmargin: 21px 9px; \r\n\t}\r\n\r\n\r\n}", ""]);
 
 // exports
 
@@ -73514,7 +73514,7 @@ module.exports = exports['default'];
 /*!***************************************************************!*\
   !*** ./node_modules/react-router-dom/esm/react-router-dom.js ***!
   \***************************************************************/
-/*! exports provided: BrowserRouter, HashRouter, Link, NavLink, MemoryRouter, Prompt, Redirect, Route, Router, StaticRouter, Switch, generatePath, matchPath, withRouter, __RouterContext */
+/*! exports provided: MemoryRouter, Prompt, Redirect, Route, Router, StaticRouter, Switch, generatePath, matchPath, withRouter, __RouterContext, BrowserRouter, HashRouter, Link, NavLink */
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
@@ -81878,7 +81878,9 @@ function (_Component) {
     value: function render() {
       return react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(react__WEBPACK_IMPORTED_MODULE_0__["Fragment"], null, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(_NavbarIndex__WEBPACK_IMPORTED_MODULE_4__["default"], null), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("section", {
         id: "about"
-      }), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(_Section__WEBPACK_IMPORTED_MODULE_3__["default"], {
+      }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("h1", {
+        className: "text-center text-light"
+      }, "ngerti.net")), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(_Section__WEBPACK_IMPORTED_MODULE_3__["default"], {
         id: "paketinstan",
         title: "Paket Instan",
         src: "/images/instan.png",
@@ -82046,12 +82048,12 @@ function (_Component) {
       }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("img", {
         alt: "",
         src: "/images/favicon.png",
-        width: "50",
-        height: "50",
+        width: "30",
+        height: "30",
         className: "d-inline-block align-top"
       }), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("span", {
         id: "brandName"
-      }, ' ngerti.net '))), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(react_bootstrap__WEBPACK_IMPORTED_MODULE_1__["Navbar"].Toggle, {
+      }, ' HOME '))), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(react_bootstrap__WEBPACK_IMPORTED_MODULE_1__["Navbar"].Toggle, {
         "aria-controls": "basic-navbar-nav"
       }), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(react_bootstrap__WEBPACK_IMPORTED_MODULE_1__["Navbar"].Collapse, {
         id: "basic-navbar-nav"
@@ -82101,7 +82103,9 @@ function (_Component) {
         href: "/register"
       }, "Join as Teacher"), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(react_bootstrap__WEBPACK_IMPORTED_MODULE_1__["Nav"].Link, {
         href: "/register"
-      }, "Join as Student"))))));
+      }, "Join as Student"), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(react_bootstrap__WEBPACK_IMPORTED_MODULE_1__["Nav"].Link, {
+        href: "/login"
+      }, "Login"))))));
     }
   }]);
 
