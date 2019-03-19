@@ -73514,7 +73514,7 @@ module.exports = exports['default'];
 /*!***************************************************************!*\
   !*** ./node_modules/react-router-dom/esm/react-router-dom.js ***!
   \***************************************************************/
-/*! exports provided: MemoryRouter, Prompt, Redirect, Route, Router, StaticRouter, Switch, generatePath, matchPath, withRouter, __RouterContext, BrowserRouter, HashRouter, Link, NavLink */
+/*! exports provided: BrowserRouter, HashRouter, Link, NavLink, MemoryRouter, Prompt, Redirect, Route, Router, StaticRouter, Switch, generatePath, matchPath, withRouter, __RouterContext */
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
@@ -81667,7 +81667,7 @@ __webpack_require__(/*! ./bootstrap */ "./resources/js/bootstrap.js");
  */
 
 
-__webpack_require__(/*! ./components/app */ "./resources/js/components/app.js");
+__webpack_require__(/*! ./components/App */ "./resources/js/components/App.js");
 
 /***/ }),
 
@@ -81729,9 +81729,9 @@ if (token) {
 
 /***/ }),
 
-/***/ "./resources/js/components/app.js":
+/***/ "./resources/js/components/App.js":
 /*!****************************************!*\
-  !*** ./resources/js/components/app.js ***!
+  !*** ./resources/js/components/App.js ***!
   \****************************************/
 /*! no exports provided */
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
@@ -82202,8 +82202,8 @@ var Section = function Section(props) {
 /*! no static exports found */
 /***/ (function(module, exports, __webpack_require__) {
 
-__webpack_require__(/*! D:\winchy project\github\Ngerti\resources\js\app.js */"./resources/js/app.js");
-module.exports = __webpack_require__(/*! D:\winchy project\github\Ngerti\resources\sass\app.scss */"./resources/sass/app.scss");
+__webpack_require__(/*! D:\winchy project\github\ngertinet\resources\js\app.js */"./resources/js/app.js");
+module.exports = __webpack_require__(/*! D:\winchy project\github\ngertinet\resources\sass\app.scss */"./resources/sass/app.scss");
 
 
 /***/ })
