@@ -2,6 +2,7 @@ import React, { Component,Fragment } from 'react'
 import { Button,Container,Row,Col } from 'react-bootstrap'
 import  './Index.css'
 import  Section from './Section'
+import {connect} from 'react-redux'
 
 import NavbarIndex from './NavbarIndex'
 
@@ -9,41 +10,33 @@ import NavbarIndex from './NavbarIndex'
 
     class Index extends Component {
       render () {
+
+
+        //Section component looping
+        const section = this.props.paket.map(
+            (singleFile,index) => {
+                return(
+                    <Section
+                         key={index} 
+                         id={singleFile.id}
+                         title={singleFile.title}
+                         src={singleFile.src}
+                         desc={singleFile.desc}
+                       />
+                )
+            }
+         );
+
+
         return (
             <Fragment>
                 <NavbarIndex/>
                 <section id="about">
-                    <h1 className="text-center text-light">ngerti.net</h1>
+                    <h1 className="text-center text-light">ngerti.net </h1>
                 </section>
 
-             <Section 
-             id="paketinstan" 
-             title="Paket Instan" 
-             src="/images/instan.png" 
-             desc="Lorem ipsum dolor sit amet, consectetur adipisicing elit. Doloribus, modi eligendi consequuntur iste consequatur animi soluta cum illo explicabo veritatis nisi eaque dicta assumenda repellendus! Sunt molestias similique a consequatur." 
-             />
-
-             <Section 
-             id="paketbulanan" 
-             title="Paket Bulanan" 
-             src="/images/kalender.png" 
-             desc="Lorem ipsum dolor sit amet, consectetur adipisicing elit. Doloribus, modi eligendi consequuntur iste consequatur animi soluta cum illo explicabo veritatis nisi eaque dicta assumenda repellendus! Sunt molestias similique a consequatur." 
-             />
-
-             <Section 
-             id="paketgroup" 
-             title="Paket Group" 
-             src="/images/group.png" 
-             desc="Lorem ipsum dolor sit amet, consectetur adipisicing elit. Doloribus, modi eligendi consequuntur iste consequatur animi soluta cum illo explicabo veritatis nisi eaque dicta assumenda repellendus! Sunt molestias similique a consequatur." 
-             />
-
-             <Section 
-             id="paketintensif" 
-             title="Paket Intensif" 
-             src="/images/intensif.png" 
-             desc="Lorem ipsum dolor sit amet, consectetur adipisicing elit. Doloribus, modi eligendi consequuntur iste consequatur animi soluta cum illo explicabo veritatis nisi eaque dicta assumenda repellendus! Sunt molestias similique a consequatur." 
-             />
-
+                {section}
+                
                 <footer>
                     <Container>
                         <Row>
@@ -62,4 +55,10 @@ import NavbarIndex from './NavbarIndex'
       }
     }
 
-    export default Index;
+    const mapStateToProps = (state) => {
+        return{
+            paket: state.paketRedux
+        }
+    }   
+
+    export default connect(mapStateToProps)(Index);;

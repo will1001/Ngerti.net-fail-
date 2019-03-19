@@ -28,6 +28,9 @@
     },
     "dependencies": {
         "react-bootstrap": "^1.0.0-beta.5",
-        "react-scroll": "^1.7.11"
+        "react-redux": "^6.0.1",
+        "react-scroll": "^1.7.11",
+        "redux": "^4.0.1",
+        "redux-thunk": "^2.3.0"
     }
 }
