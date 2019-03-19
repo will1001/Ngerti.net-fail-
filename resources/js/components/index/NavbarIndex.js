@@ -48,7 +48,7 @@ import  './NavbarIndex.css'
                     </Navbar.Brand>
                     <Navbar.Toggle aria-controls="basic-navbar-nav" />
                     <Navbar.Collapse id="basic-navbar-nav">
-                      <Nav className="mr-auto text-uppercase" defaultActiveKey="#home">
+                      <Nav className="ml-auto text-uppercase" defaultActiveKey="#home">
                         <NavDropdown title="paket" id="basic-nav-dropdown">
                           <NavDropdown.Item href="#paketinstan">
                             <Link
