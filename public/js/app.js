@@ -6774,7 +6774,26 @@ exports = module.exports = __webpack_require__(/*! ../../../../node_modules/css-
 
 
 // module
-exports.push([module.i, "section{\r\n\twidth: 100%;\r\n    height: 665px;\r\n    background-color: #ffffff;\r\n}\r\n\r\nsection img{\r\n\twidth: 70%;\r\n    height: 465px;\r\n}\r\n\r\nsection p{\r\n\tmargin: 31px 100px; \r\n}\r\n\r\nsection h1{\r\n\tmargin: 17px 0px; \r\n}\r\n\r\n\r\n/* Medium Layout: 1280px. */\r\n\r\n@media only screen and (min-width: 992px) and (max-width: 1200px) {\r\n\r\n\r\n}\r\n\r\n\r\n/* Tablet Layout: 768px. */\r\n\r\n@media only screen and (min-width: 768px) and (max-width: 991px) {\r\n\r\n   \r\n}\r\n\r\n\r\n/* Mobile Layout: 320px. */\r\n\r\n@media only screen and (max-width: 767px) {\r\n\r\n\tsection{\r\n\t    height: auto;\r\n\t}\r\n\r\n}\r\n\r\n\r\n/* Wide Mobile Layout: 480px. */\r\n\r\n@media only screen and (min-width: 480px) and (max-width: 767px) {\r\n\r\n\tsection{\r\n\t    height: auto;\r\n\t}\r\n\r\n\r\n}\r\n\r\n    \r\n@media only screen and (min-width: 320px) and (max-width: 479px) {\r\n    \r\n\tsection{\r\n\t    height: auto;\r\n\t}\r\n\r\n\tsection img{\r\n\t\twidth: 100%;\r\n\t    height: auto;\r\n\t}\r\n\r\n\tsection p{\r\n\t\tmargin: 21px 9px; \r\n\t}\r\n\r\n\r\n}", ""]);
+exports.push([module.i, "section{\r\n\twidth: 100%;\r\n    height: 665px;\r\n    background-color: #ffffff;\r\n}\r\n\r\nsection img{\r\n\twidth: 70%;\r\n    height: 465px;\r\n}\r\n\r\nsection p{\r\n\tpadding: 31px 100px; \r\n}\r\n\r\nsection h1{\r\n\tpadding: 17px 0px; \r\n}\r\n\r\n\r\n/* Medium Layout: 1280px. */\r\n\r\n@media only screen and (min-width: 992px) and (max-width: 1200px) {\r\n\r\n\r\n}\r\n\r\n\r\n/* Tablet Layout: 768px. */\r\n\r\n@media only screen and (min-width: 768px) and (max-width: 991px) {\r\n\r\n   \r\n}\r\n\r\n\r\n/* Mobile Layout: 320px. */\r\n\r\n@media only screen and (max-width: 767px) {\r\n\r\n\tsection{\r\n\t    height: auto;\r\n\t}\r\n\r\n}\r\n\r\n\r\n/* Wide Mobile Layout: 480px. */\r\n\r\n@media only screen and (min-width: 480px) and (max-width: 767px) {\r\n\r\n\tsection{\r\n\t    height: auto;\r\n\t}\r\n\r\n\r\n}\r\n\r\n    \r\n@media only screen and (min-width: 320px) and (max-width: 479px) {\r\n    \r\n\tsection{\r\n\t    height: auto;\r\n\t}\r\n\r\n\tsection img{\r\n\t\twidth: 100%;\r\n\t    height: auto;\r\n\t}\r\n\r\n\tsection p{\r\n\t\tmargin: 21px 9px; \r\n\t}\r\n\r\n\r\n}", ""]);
+
+// exports
+
+
+/***/ }),
+
+/***/ "./node_modules/css-loader/index.js?!./node_modules/postcss-loader/src/index.js?!./resources/js/components/index/paket/FormPaket.css":
+/*!*******************************************************************************************************************************************!*\
+  !*** ./node_modules/css-loader??ref--6-1!./node_modules/postcss-loader/src??ref--6-2!./resources/js/components/index/paket/FormPaket.css ***!
+  \*******************************************************************************************************************************************/
+/*! no static exports found */
+/***/ (function(module, exports, __webpack_require__) {
+
+exports = module.exports = __webpack_require__(/*! ../../../../../node_modules/css-loader/lib/css-base.js */ "./node_modules/css-loader/lib/css-base.js")(false);
+// imports
+
+
+// module
+exports.push([module.i, " input[type=\"radio\"]{\r\n \topacity: 0;\r\n }\r\n\r\n input[type=\"radio\"]:checked+label {\r\n    border: 3px green solid;\r\n\t-webkit-transform: scale(1.1);\r\n\t        transform: scale(1.1);\r\n    transition:0.5s;\r\n}", ""]);
 
 // exports
 
@@ -6785,6 +6804,44 @@ exports.push([module.i, "section{\r\n\twidth: 100%;\r\n    height: 665px;\r\n   
 /*!***************************************************************************************************************************************!*\
   !*** ./node_modules/css-loader??ref--6-1!./node_modules/postcss-loader/src??ref--6-2!./resources/js/components/index/paket/Paket.css ***!
   \***************************************************************************************************************************************/
+/*! no static exports found */
+/***/ (function(module, exports, __webpack_require__) {
+
+exports = module.exports = __webpack_require__(/*! ../../../../../node_modules/css-loader/lib/css-base.js */ "./node_modules/css-loader/lib/css-base.js")(false);
+// imports
+
+
+// module
+exports.push([module.i, "#navbarcolorTransparent{\r\n\tbackground-color: rgba(125,125,125,.5)!important;\r\n}\r\n\r\nsection{\r\n\tpadding: 35px 0px; \r\n}", ""]);
+
+// exports
+
+
+/***/ }),
+
+/***/ "./node_modules/css-loader/index.js?!./node_modules/postcss-loader/src/index.js?!./resources/js/components/index/paket/TutorCardProfile.css":
+/*!**************************************************************************************************************************************************!*\
+  !*** ./node_modules/css-loader??ref--6-1!./node_modules/postcss-loader/src??ref--6-2!./resources/js/components/index/paket/TutorCardProfile.css ***!
+  \**************************************************************************************************************************************************/
+/*! no static exports found */
+/***/ (function(module, exports, __webpack_require__) {
+
+exports = module.exports = __webpack_require__(/*! ../../../../../node_modules/css-loader/lib/css-base.js */ "./node_modules/css-loader/lib/css-base.js")(false);
+// imports
+
+
+// module
+exports.push([module.i, "", ""]);
+
+// exports
+
+
+/***/ }),
+
+/***/ "./node_modules/css-loader/index.js?!./node_modules/postcss-loader/src/index.js?!./resources/js/components/index/paket/tutorSlideShow.css":
+/*!************************************************************************************************************************************************!*\
+  !*** ./node_modules/css-loader??ref--6-1!./node_modules/postcss-loader/src??ref--6-2!./resources/js/components/index/paket/tutorSlideShow.css ***!
+  \************************************************************************************************************************************************/
 /*! no static exports found */
 /***/ (function(module, exports, __webpack_require__) {
 
@@ -83751,8 +83808,9 @@ __webpack_require__.r(__webpack_exports__);
 /* harmony import */ var react_bootstrap__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! react-bootstrap */ "./node_modules/react-bootstrap/es/index.js");
 /* harmony import */ var react_scroll__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! react-scroll */ "./node_modules/react-scroll/modules/index.js");
 /* harmony import */ var react_scroll__WEBPACK_IMPORTED_MODULE_2___default = /*#__PURE__*/__webpack_require__.n(react_scroll__WEBPACK_IMPORTED_MODULE_2__);
-/* harmony import */ var _NavbarIndex_css__WEBPACK_IMPORTED_MODULE_3__ = __webpack_require__(/*! ./NavbarIndex.css */ "./resources/js/components/index/NavbarIndex.css");
-/* harmony import */ var _NavbarIndex_css__WEBPACK_IMPORTED_MODULE_3___default = /*#__PURE__*/__webpack_require__.n(_NavbarIndex_css__WEBPACK_IMPORTED_MODULE_3__);
+/* harmony import */ var react_router_dom__WEBPACK_IMPORTED_MODULE_3__ = __webpack_require__(/*! react-router-dom */ "./node_modules/react-router-dom/esm/react-router-dom.js");
+/* harmony import */ var _NavbarIndex_css__WEBPACK_IMPORTED_MODULE_4__ = __webpack_require__(/*! ./NavbarIndex.css */ "./resources/js/components/index/NavbarIndex.css");
+/* harmony import */ var _NavbarIndex_css__WEBPACK_IMPORTED_MODULE_4___default = /*#__PURE__*/__webpack_require__.n(_NavbarIndex_css__WEBPACK_IMPORTED_MODULE_4__);
 function _typeof(obj) { if (typeof Symbol === "function" && typeof Symbol.iterator === "symbol") { _typeof = function _typeof(obj) { return typeof obj; }; } else { _typeof = function _typeof(obj) { return obj && typeof Symbol === "function" && obj.constructor === Symbol && obj !== Symbol.prototype ? "symbol" : typeof obj; }; } return _typeof(obj); }
 
 function _classCallCheck(instance, Constructor) { if (!(instance instanceof Constructor)) { throw new TypeError("Cannot call a class as a function"); } }
@@ -83770,6 +83828,7 @@ function _getPrototypeOf(o) { _getPrototypeOf = Object.setPrototypeOf ? Object.g
 function _inherits(subClass, superClass) { if (typeof superClass !== "function" && superClass !== null) { throw new TypeError("Super expression must either be null or a function"); } subClass.prototype = Object.create(superClass && superClass.prototype, { constructor: { value: subClass, writable: true, configurable: true } }); if (superClass) _setPrototypeOf(subClass, superClass); }
 
 function _setPrototypeOf(o, p) { _setPrototypeOf = Object.setPrototypeOf || function _setPrototypeOf(o, p) { o.__proto__ = p; return o; }; return _setPrototypeOf(o, p); }
+
 
 
 
@@ -83818,13 +83877,9 @@ function (_Component) {
         fluid: "true"
       }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(react_bootstrap__WEBPACK_IMPORTED_MODULE_1__["Navbar"].Brand, {
         href: "#about"
-      }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(react_scroll__WEBPACK_IMPORTED_MODULE_2__["Link"], {
-        activeClass: "active",
-        to: "about",
-        spy: true,
-        smooth: true,
-        offset: 0,
-        duration: 1000
+      }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(react_router_dom__WEBPACK_IMPORTED_MODULE_3__["Link"], {
+        to: "/",
+        className: "text-dark"
       }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("img", {
         alt: "",
         src: "/images/favicon.png",
@@ -83845,40 +83900,24 @@ function (_Component) {
         id: "basic-nav-dropdown"
       }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(react_bootstrap__WEBPACK_IMPORTED_MODULE_1__["NavDropdown"].Item, {
         href: "#paketinstan"
-      }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(react_scroll__WEBPACK_IMPORTED_MODULE_2__["Link"], {
-        activeClass: "active",
-        to: "paketinstan",
-        spy: true,
-        smooth: true,
-        offset: -71,
-        duration: 1000
+      }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(react_router_dom__WEBPACK_IMPORTED_MODULE_3__["Link"], {
+        to: "/paketinstan",
+        className: "text-dark"
       }, "paket instan")), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(react_bootstrap__WEBPACK_IMPORTED_MODULE_1__["NavDropdown"].Divider, null), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(react_bootstrap__WEBPACK_IMPORTED_MODULE_1__["NavDropdown"].Item, {
         href: "#paketbulanan"
-      }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(react_scroll__WEBPACK_IMPORTED_MODULE_2__["Link"], {
-        activeClass: "active",
-        to: "paketbulanan",
-        spy: true,
-        smooth: true,
-        offset: -71,
-        duration: 1000
+      }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(react_router_dom__WEBPACK_IMPORTED_MODULE_3__["Link"], {
+        to: "/paketbulanan",
+        className: "text-dark"
       }, "paket bulanan")), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(react_bootstrap__WEBPACK_IMPORTED_MODULE_1__["NavDropdown"].Divider, null), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(react_bootstrap__WEBPACK_IMPORTED_MODULE_1__["NavDropdown"].Item, {
         href: "#paketgroup"
-      }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(react_scroll__WEBPACK_IMPORTED_MODULE_2__["Link"], {
-        activeClass: "active",
-        to: "paketgroup",
-        spy: true,
-        smooth: true,
-        offset: -71,
-        duration: 1000
+      }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(react_router_dom__WEBPACK_IMPORTED_MODULE_3__["Link"], {
+        to: "/paketgroup",
+        className: "text-dark"
       }, "paket group")), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(react_bootstrap__WEBPACK_IMPORTED_MODULE_1__["NavDropdown"].Divider, null), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(react_bootstrap__WEBPACK_IMPORTED_MODULE_1__["NavDropdown"].Item, {
         href: "#paketintensif"
-      }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(react_scroll__WEBPACK_IMPORTED_MODULE_2__["Link"], {
-        activeClass: "active",
-        to: "paketintensif",
-        spy: true,
-        smooth: true,
-        offset: -71,
-        duration: 1000
+      }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(react_router_dom__WEBPACK_IMPORTED_MODULE_3__["Link"], {
+        to: "/paketintensif",
+        className: "text-dark"
       }, "paket intensif"))), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(react_bootstrap__WEBPACK_IMPORTED_MODULE_1__["Nav"].Link, {
         href: "/register"
       }, "Join as Teacher"), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(react_bootstrap__WEBPACK_IMPORTED_MODULE_1__["Nav"].Link, {
@@ -83956,7 +83995,8 @@ var Section = function Section(props) {
   }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(react_bootstrap__WEBPACK_IMPORTED_MODULE_1__["Row"], null, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(react_bootstrap__WEBPACK_IMPORTED_MODULE_1__["Col"], {
     md: "12"
   }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(react_router_dom__WEBPACK_IMPORTED_MODULE_3__["Link"], {
-    to: link
+    to: link,
+    className: "text-dark"
   }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("h1", {
     className: "text-center"
   }, props.title), " "), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
@@ -83970,6 +84010,229 @@ var Section = function Section(props) {
 };
 
 /* harmony default export */ __webpack_exports__["default"] = (Section);
+
+/***/ }),
+
+/***/ "./resources/js/components/index/paket/FormPaket.css":
+/*!***********************************************************!*\
+  !*** ./resources/js/components/index/paket/FormPaket.css ***!
+  \***********************************************************/
+/*! no static exports found */
+/***/ (function(module, exports, __webpack_require__) {
+
+
+var content = __webpack_require__(/*! !../../../../../node_modules/css-loader??ref--6-1!../../../../../node_modules/postcss-loader/src??ref--6-2!./FormPaket.css */ "./node_modules/css-loader/index.js?!./node_modules/postcss-loader/src/index.js?!./resources/js/components/index/paket/FormPaket.css");
+
+if(typeof content === 'string') content = [[module.i, content, '']];
+
+var transform;
+var insertInto;
+
+
+
+var options = {"hmr":true}
+
+options.transform = transform
+options.insertInto = undefined;
+
+var update = __webpack_require__(/*! ../../../../../node_modules/style-loader/lib/addStyles.js */ "./node_modules/style-loader/lib/addStyles.js")(content, options);
+
+if(content.locals) module.exports = content.locals;
+
+if(false) {}
+
+/***/ }),
+
+/***/ "./resources/js/components/index/paket/FormPaket.js":
+/*!**********************************************************!*\
+  !*** ./resources/js/components/index/paket/FormPaket.js ***!
+  \**********************************************************/
+/*! exports provided: default */
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+__webpack_require__.r(__webpack_exports__);
+/* harmony import */ var react__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! react */ "./node_modules/react/index.js");
+/* harmony import */ var react__WEBPACK_IMPORTED_MODULE_0___default = /*#__PURE__*/__webpack_require__.n(react__WEBPACK_IMPORTED_MODULE_0__);
+/* harmony import */ var react_bootstrap__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! react-bootstrap */ "./node_modules/react-bootstrap/es/index.js");
+/* harmony import */ var react_dom__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! react-dom */ "./node_modules/react-dom/index.js");
+/* harmony import */ var react_dom__WEBPACK_IMPORTED_MODULE_2___default = /*#__PURE__*/__webpack_require__.n(react_dom__WEBPACK_IMPORTED_MODULE_2__);
+/* harmony import */ var _FormPaket_css__WEBPACK_IMPORTED_MODULE_3__ = __webpack_require__(/*! ./FormPaket.css */ "./resources/js/components/index/paket/FormPaket.css");
+/* harmony import */ var _FormPaket_css__WEBPACK_IMPORTED_MODULE_3___default = /*#__PURE__*/__webpack_require__.n(_FormPaket_css__WEBPACK_IMPORTED_MODULE_3__);
+/* harmony import */ var _TutorCardProfile__WEBPACK_IMPORTED_MODULE_4__ = __webpack_require__(/*! ./TutorCardProfile */ "./resources/js/components/index/paket/TutorCardProfile.js");
+function _typeof(obj) { if (typeof Symbol === "function" && typeof Symbol.iterator === "symbol") { _typeof = function _typeof(obj) { return typeof obj; }; } else { _typeof = function _typeof(obj) { return obj && typeof Symbol === "function" && obj.constructor === Symbol && obj !== Symbol.prototype ? "symbol" : typeof obj; }; } return _typeof(obj); }
+
+function _classCallCheck(instance, Constructor) { if (!(instance instanceof Constructor)) { throw new TypeError("Cannot call a class as a function"); } }
+
+function _defineProperties(target, props) { for (var i = 0; i < props.length; i++) { var descriptor = props[i]; descriptor.enumerable = descriptor.enumerable || false; descriptor.configurable = true; if ("value" in descriptor) descriptor.writable = true; Object.defineProperty(target, descriptor.key, descriptor); } }
+
+function _createClass(Constructor, protoProps, staticProps) { if (protoProps) _defineProperties(Constructor.prototype, protoProps); if (staticProps) _defineProperties(Constructor, staticProps); return Constructor; }
+
+function _possibleConstructorReturn(self, call) { if (call && (_typeof(call) === "object" || typeof call === "function")) { return call; } return _assertThisInitialized(self); }
+
+function _assertThisInitialized(self) { if (self === void 0) { throw new ReferenceError("this hasn't been initialised - super() hasn't been called"); } return self; }
+
+function _getPrototypeOf(o) { _getPrototypeOf = Object.setPrototypeOf ? Object.getPrototypeOf : function _getPrototypeOf(o) { return o.__proto__ || Object.getPrototypeOf(o); }; return _getPrototypeOf(o); }
+
+function _inherits(subClass, superClass) { if (typeof superClass !== "function" && superClass !== null) { throw new TypeError("Super expression must either be null or a function"); } subClass.prototype = Object.create(superClass && superClass.prototype, { constructor: { value: subClass, writable: true, configurable: true } }); if (superClass) _setPrototypeOf(subClass, superClass); }
+
+function _setPrototypeOf(o, p) { _setPrototypeOf = Object.setPrototypeOf || function _setPrototypeOf(o, p) { o.__proto__ = p; return o; }; return _setPrototypeOf(o, p); }
+
+
+
+
+
+
+
+function CekPaketGrup(props) {
+  var isPaketgrup = props.jenisPaket === 'paketgroup';
+
+  if (isPaketgrup) {
+    return react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(react_bootstrap__WEBPACK_IMPORTED_MODULE_1__["Form"].Row, null, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(react_bootstrap__WEBPACK_IMPORTED_MODULE_1__["Form"].Group, {
+      as: react_bootstrap__WEBPACK_IMPORTED_MODULE_1__["Col"],
+      md: "4",
+      controlId: "formMateri"
+    }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(react_bootstrap__WEBPACK_IMPORTED_MODULE_1__["Form"].Label, null, "Jumlah Group"), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(react_bootstrap__WEBPACK_IMPORTED_MODULE_1__["Form"].Control, {
+      type: "number",
+      min: "1",
+      placeholder: "Isi Jumlah Group yang diinginkan",
+      required: true
+    }), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(react_bootstrap__WEBPACK_IMPORTED_MODULE_1__["Form"].Control.Feedback, {
+      type: "invalid"
+    }, "Isi Jumlah Group yang diinginkan")));
+  } else {
+    return null;
+  }
+}
+
+;
+
+var FormPaket =
+/*#__PURE__*/
+function (_Component) {
+  _inherits(FormPaket, _Component);
+
+  function FormPaket(props) {
+    var _this;
+
+    _classCallCheck(this, FormPaket);
+
+    _this = _possibleConstructorReturn(this, _getPrototypeOf(FormPaket).call(this, props));
+    _this.state = {
+      validated: false
+    };
+    return _this;
+  }
+
+  _createClass(FormPaket, [{
+    key: "handleSubmit",
+    value: function handleSubmit(event) {
+      var form = event.currentTarget;
+
+      if (form.checkValidity() === false) {
+        event.preventDefault();
+        event.stopPropagation();
+      }
+
+      this.setState({
+        validated: true
+      });
+    }
+  }, {
+    key: "render",
+    value: function render() {
+      var _this2 = this;
+
+      var validated = this.state.validated;
+      return react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(react__WEBPACK_IMPORTED_MODULE_0__["Fragment"], null, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(react_bootstrap__WEBPACK_IMPORTED_MODULE_1__["Form"], {
+        noValidate: true,
+        validated: validated,
+        onSubmit: function onSubmit(e) {
+          return _this2.handleSubmit(e);
+        }
+      }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(react_bootstrap__WEBPACK_IMPORTED_MODULE_1__["Form"].Row, null, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(react_bootstrap__WEBPACK_IMPORTED_MODULE_1__["Form"].Group, {
+        as: react_bootstrap__WEBPACK_IMPORTED_MODULE_1__["Col"],
+        md: "4",
+        controlId: "formMapel"
+      }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(react_bootstrap__WEBPACK_IMPORTED_MODULE_1__["Form"].Label, null, "Mata Pelajaran"), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(react_bootstrap__WEBPACK_IMPORTED_MODULE_1__["Form"].Control, {
+        as: "select",
+        required: true
+      }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("option", {
+        value: "",
+        disabled: true,
+        selected: true
+      }, "Pilih Mata pelajaran yang anda inginkan"), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("option", null, "1"), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("option", null, "2"), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("option", null, "3"), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("option", null, "4"), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("option", null, "5")), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(react_bootstrap__WEBPACK_IMPORTED_MODULE_1__["Form"].Control.Feedback, {
+        type: "invalid"
+      }, "Pelajaran Yang anda inginkan belum dipilih"))), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(react_bootstrap__WEBPACK_IMPORTED_MODULE_1__["Form"].Row, null, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(react_bootstrap__WEBPACK_IMPORTED_MODULE_1__["Form"].Group, {
+        as: react_bootstrap__WEBPACK_IMPORTED_MODULE_1__["Col"],
+        md: "2",
+        controlId: "formTanggal"
+      }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(react_bootstrap__WEBPACK_IMPORTED_MODULE_1__["Form"].Label, null, "Jadwal"), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(react_bootstrap__WEBPACK_IMPORTED_MODULE_1__["Form"].Control, {
+        type: "date",
+        placeholder: "Tanggal",
+        required: true
+      }), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(react_bootstrap__WEBPACK_IMPORTED_MODULE_1__["Form"].Control.Feedback, {
+        type: "invalid"
+      }, "Tanggal belum di tentukan")), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(react_bootstrap__WEBPACK_IMPORTED_MODULE_1__["Form"].Group, {
+        as: react_bootstrap__WEBPACK_IMPORTED_MODULE_1__["Col"],
+        md: "2",
+        controlId: "formJam"
+      }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(react_bootstrap__WEBPACK_IMPORTED_MODULE_1__["Form"].Label, {
+        style: {
+          opacity: '0'
+        }
+      }, "."), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(react_bootstrap__WEBPACK_IMPORTED_MODULE_1__["Form"].Control, {
+        type: "time",
+        placeholder: "Jam",
+        required: true
+      }), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(react_bootstrap__WEBPACK_IMPORTED_MODULE_1__["Form"].Control.Feedback, {
+        type: "invalid"
+      }, "Jam belum di tentukan"))), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(react_bootstrap__WEBPACK_IMPORTED_MODULE_1__["Form"].Row, null, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(react_bootstrap__WEBPACK_IMPORTED_MODULE_1__["Form"].Group, {
+        as: react_bootstrap__WEBPACK_IMPORTED_MODULE_1__["Col"],
+        md: "4",
+        controlId: "formMateri"
+      }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(react_bootstrap__WEBPACK_IMPORTED_MODULE_1__["Form"].Label, null, "Materi"), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(react_bootstrap__WEBPACK_IMPORTED_MODULE_1__["Form"].Control, {
+        placeholder: "Tulis materi yang ingin anda pelajari",
+        required: true
+      }), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(react_bootstrap__WEBPACK_IMPORTED_MODULE_1__["Form"].Control.Feedback, {
+        type: "invalid"
+      }, "Tulis materi yang ingin anda pelajari"))), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(CekPaketGrup, {
+        jenisPaket: this.props.jenisPaket
+      }), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(react_bootstrap__WEBPACK_IMPORTED_MODULE_1__["Form"].Row, null, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(react_bootstrap__WEBPACK_IMPORTED_MODULE_1__["Form"].Group, {
+        as: react_bootstrap__WEBPACK_IMPORTED_MODULE_1__["Col"]
+      }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(react_bootstrap__WEBPACK_IMPORTED_MODULE_1__["Form"].Label, null, "Pilih Tutor"))), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(react_bootstrap__WEBPACK_IMPORTED_MODULE_1__["Form"].Group, {
+        as: react_bootstrap__WEBPACK_IMPORTED_MODULE_1__["Row"]
+      }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(react_bootstrap__WEBPACK_IMPORTED_MODULE_1__["Form"].Check, {
+        required: true,
+        label: react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(_TutorCardProfile__WEBPACK_IMPORTED_MODULE_4__["default"], null),
+        type: "radio",
+        name: "formHorizontalRadios",
+        id: "formHorizontalRadios1",
+        feedback: "You must agree before submitting1."
+      }), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(react_bootstrap__WEBPACK_IMPORTED_MODULE_1__["Form"].Check, {
+        required: true,
+        label: react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(_TutorCardProfile__WEBPACK_IMPORTED_MODULE_4__["default"], null),
+        type: "radio",
+        name: "formHorizontalRadios",
+        id: "formHorizontalRadios2",
+        feedback: "You must agree before submitting1."
+      }), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(react_bootstrap__WEBPACK_IMPORTED_MODULE_1__["Form"].Check, {
+        required: true,
+        label: react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(_TutorCardProfile__WEBPACK_IMPORTED_MODULE_4__["default"], null),
+        type: "radio",
+        name: "formHorizontalRadios",
+        id: "formHorizontalRadios3",
+        feedback: "You must agree before submitting1."
+      })), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(react_bootstrap__WEBPACK_IMPORTED_MODULE_1__["Button"], {
+        type: "submit"
+      }, "Order")));
+    }
+  }]);
+
+  return FormPaket;
+}(react__WEBPACK_IMPORTED_MODULE_0__["Component"]);
+
+/* harmony default export */ __webpack_exports__["default"] = (FormPaket);
 
 /***/ }),
 
@@ -84022,6 +84285,9 @@ __webpack_require__.r(__webpack_exports__);
 /* harmony import */ var _Paket_css__WEBPACK_IMPORTED_MODULE_5__ = __webpack_require__(/*! ./Paket.css */ "./resources/js/components/index/paket/Paket.css");
 /* harmony import */ var _Paket_css__WEBPACK_IMPORTED_MODULE_5___default = /*#__PURE__*/__webpack_require__.n(_Paket_css__WEBPACK_IMPORTED_MODULE_5__);
 /* harmony import */ var _Section__WEBPACK_IMPORTED_MODULE_6__ = __webpack_require__(/*! ../Section */ "./resources/js/components/index/Section.js");
+/* harmony import */ var _FormPaket__WEBPACK_IMPORTED_MODULE_7__ = __webpack_require__(/*! ./FormPaket */ "./resources/js/components/index/paket/FormPaket.js");
+/* harmony import */ var _TutorSlideShow__WEBPACK_IMPORTED_MODULE_8__ = __webpack_require__(/*! ./TutorSlideShow */ "./resources/js/components/index/paket/TutorSlideShow.js");
+/* harmony import */ var _NavbarIndex__WEBPACK_IMPORTED_MODULE_9__ = __webpack_require__(/*! ../NavbarIndex */ "./resources/js/components/index/NavbarIndex.js");
 function _typeof(obj) { if (typeof Symbol === "function" && typeof Symbol.iterator === "symbol") { _typeof = function _typeof(obj) { return typeof obj; }; } else { _typeof = function _typeof(obj) { return obj && typeof Symbol === "function" && obj.constructor === Symbol && obj !== Symbol.prototype ? "symbol" : typeof obj; }; } return _typeof(obj); }
 
 function _classCallCheck(instance, Constructor) { if (!(instance instanceof Constructor)) { throw new TypeError("Cannot call a class as a function"); } }
@@ -84039,6 +84305,9 @@ function _getPrototypeOf(o) { _getPrototypeOf = Object.setPrototypeOf ? Object.g
 function _inherits(subClass, superClass) { if (typeof superClass !== "function" && superClass !== null) { throw new TypeError("Super expression must either be null or a function"); } subClass.prototype = Object.create(superClass && superClass.prototype, { constructor: { value: subClass, writable: true, configurable: true } }); if (superClass) _setPrototypeOf(subClass, superClass); }
 
 function _setPrototypeOf(o, p) { _setPrototypeOf = Object.setPrototypeOf || function _setPrototypeOf(o, p) { o.__proto__ = p; return o; }; return _setPrototypeOf(o, p); }
+
+
+
 
 
 
@@ -84070,16 +84339,18 @@ function (_Component) {
       this.props.paket.map(function (singleFile, index) {
         return paketsection = singleFile.id === _this.props.match.params.paket ? index : paketsection;
       });
-      grup = this.props.match.params.paket === 'paketgroup' ? '<h1>grup ok</h1>' : null;
+      grup = this.props.match.params.paket === 'paketgroup' ? 'paketgroup' : null;
       link = '/#' + this.props.match.params.paket;
-      return react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(react__WEBPACK_IMPORTED_MODULE_0__["Fragment"], null, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(react_router_dom__WEBPACK_IMPORTED_MODULE_2__["Link"], {
-        to: link
-      }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("h1", null, "BACK"), " "), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(_Section__WEBPACK_IMPORTED_MODULE_6__["default"], {
+      return react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(react__WEBPACK_IMPORTED_MODULE_0__["Fragment"], null, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(_NavbarIndex__WEBPACK_IMPORTED_MODULE_9__["default"], null), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(_Section__WEBPACK_IMPORTED_MODULE_6__["default"], {
         id: this.props.paket[paketsection].id,
         title: this.props.paket[paketsection].title,
         src: this.props.paket[paketsection].src,
         desc: this.props.paket[paketsection].desc
-      }), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("h1", null, grup));
+      }), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(react_bootstrap__WEBPACK_IMPORTED_MODULE_1__["Container"], {
+        fluid: "true"
+      }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(_FormPaket__WEBPACK_IMPORTED_MODULE_7__["default"], {
+        jenisPaket: grup
+      })));
     }
   }]);
 
@@ -84093,6 +84364,225 @@ var mapStateToProps = function mapStateToProps(state) {
 };
 
 /* harmony default export */ __webpack_exports__["default"] = (Object(react_redux__WEBPACK_IMPORTED_MODULE_4__["connect"])(mapStateToProps)(Paket));
+
+/***/ }),
+
+/***/ "./resources/js/components/index/paket/TutorCardProfile.css":
+/*!******************************************************************!*\
+  !*** ./resources/js/components/index/paket/TutorCardProfile.css ***!
+  \******************************************************************/
+/*! no static exports found */
+/***/ (function(module, exports, __webpack_require__) {
+
+
+var content = __webpack_require__(/*! !../../../../../node_modules/css-loader??ref--6-1!../../../../../node_modules/postcss-loader/src??ref--6-2!./TutorCardProfile.css */ "./node_modules/css-loader/index.js?!./node_modules/postcss-loader/src/index.js?!./resources/js/components/index/paket/TutorCardProfile.css");
+
+if(typeof content === 'string') content = [[module.i, content, '']];
+
+var transform;
+var insertInto;
+
+
+
+var options = {"hmr":true}
+
+options.transform = transform
+options.insertInto = undefined;
+
+var update = __webpack_require__(/*! ../../../../../node_modules/style-loader/lib/addStyles.js */ "./node_modules/style-loader/lib/addStyles.js")(content, options);
+
+if(content.locals) module.exports = content.locals;
+
+if(false) {}
+
+/***/ }),
+
+/***/ "./resources/js/components/index/paket/TutorCardProfile.js":
+/*!*****************************************************************!*\
+  !*** ./resources/js/components/index/paket/TutorCardProfile.js ***!
+  \*****************************************************************/
+/*! exports provided: default */
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+__webpack_require__.r(__webpack_exports__);
+/* harmony import */ var react__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! react */ "./node_modules/react/index.js");
+/* harmony import */ var react__WEBPACK_IMPORTED_MODULE_0___default = /*#__PURE__*/__webpack_require__.n(react__WEBPACK_IMPORTED_MODULE_0__);
+/* harmony import */ var react_bootstrap__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! react-bootstrap */ "./node_modules/react-bootstrap/es/index.js");
+/* harmony import */ var _TutorCardProfile_css__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! ./TutorCardProfile.css */ "./resources/js/components/index/paket/TutorCardProfile.css");
+/* harmony import */ var _TutorCardProfile_css__WEBPACK_IMPORTED_MODULE_2___default = /*#__PURE__*/__webpack_require__.n(_TutorCardProfile_css__WEBPACK_IMPORTED_MODULE_2__);
+/* harmony import */ var react_redux__WEBPACK_IMPORTED_MODULE_3__ = __webpack_require__(/*! react-redux */ "./node_modules/react-redux/es/index.js");
+function _typeof(obj) { if (typeof Symbol === "function" && typeof Symbol.iterator === "symbol") { _typeof = function _typeof(obj) { return typeof obj; }; } else { _typeof = function _typeof(obj) { return obj && typeof Symbol === "function" && obj.constructor === Symbol && obj !== Symbol.prototype ? "symbol" : typeof obj; }; } return _typeof(obj); }
+
+function _classCallCheck(instance, Constructor) { if (!(instance instanceof Constructor)) { throw new TypeError("Cannot call a class as a function"); } }
+
+function _defineProperties(target, props) { for (var i = 0; i < props.length; i++) { var descriptor = props[i]; descriptor.enumerable = descriptor.enumerable || false; descriptor.configurable = true; if ("value" in descriptor) descriptor.writable = true; Object.defineProperty(target, descriptor.key, descriptor); } }
+
+function _createClass(Constructor, protoProps, staticProps) { if (protoProps) _defineProperties(Constructor.prototype, protoProps); if (staticProps) _defineProperties(Constructor, staticProps); return Constructor; }
+
+function _possibleConstructorReturn(self, call) { if (call && (_typeof(call) === "object" || typeof call === "function")) { return call; } return _assertThisInitialized(self); }
+
+function _assertThisInitialized(self) { if (self === void 0) { throw new ReferenceError("this hasn't been initialised - super() hasn't been called"); } return self; }
+
+function _getPrototypeOf(o) { _getPrototypeOf = Object.setPrototypeOf ? Object.getPrototypeOf : function _getPrototypeOf(o) { return o.__proto__ || Object.getPrototypeOf(o); }; return _getPrototypeOf(o); }
+
+function _inherits(subClass, superClass) { if (typeof superClass !== "function" && superClass !== null) { throw new TypeError("Super expression must either be null or a function"); } subClass.prototype = Object.create(superClass && superClass.prototype, { constructor: { value: subClass, writable: true, configurable: true } }); if (superClass) _setPrototypeOf(subClass, superClass); }
+
+function _setPrototypeOf(o, p) { _setPrototypeOf = Object.setPrototypeOf || function _setPrototypeOf(o, p) { o.__proto__ = p; return o; }; return _setPrototypeOf(o, p); }
+
+
+
+
+
+
+var TutorCardProfile =
+/*#__PURE__*/
+function (_Component) {
+  _inherits(TutorCardProfile, _Component);
+
+  function TutorCardProfile() {
+    _classCallCheck(this, TutorCardProfile);
+
+    return _possibleConstructorReturn(this, _getPrototypeOf(TutorCardProfile).apply(this, arguments));
+  }
+
+  _createClass(TutorCardProfile, [{
+    key: "render",
+    value: function render() {
+      return react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(react__WEBPACK_IMPORTED_MODULE_0__["Fragment"], null, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(react_bootstrap__WEBPACK_IMPORTED_MODULE_1__["Card"], {
+        style: {
+          width: '10rem'
+        }
+      }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(react_bootstrap__WEBPACK_IMPORTED_MODULE_1__["Card"].Img, {
+        variant: "top",
+        src: "/images/favicon.png"
+      }), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(react_bootstrap__WEBPACK_IMPORTED_MODULE_1__["Card"].Body, null, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(react_bootstrap__WEBPACK_IMPORTED_MODULE_1__["Card"].Title, {
+        className: "text-center"
+      }, "nama Tutor"))));
+    }
+  }]);
+
+  return TutorCardProfile;
+}(react__WEBPACK_IMPORTED_MODULE_0__["Component"]);
+
+var mapStateToProps = function mapStateToProps(state) {
+  return {};
+};
+
+/* harmony default export */ __webpack_exports__["default"] = (Object(react_redux__WEBPACK_IMPORTED_MODULE_3__["connect"])(mapStateToProps)(TutorCardProfile));
+;
+
+/***/ }),
+
+/***/ "./resources/js/components/index/paket/TutorSlideShow.js":
+/*!***************************************************************!*\
+  !*** ./resources/js/components/index/paket/TutorSlideShow.js ***!
+  \***************************************************************/
+/*! exports provided: default */
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+__webpack_require__.r(__webpack_exports__);
+/* harmony import */ var react__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! react */ "./node_modules/react/index.js");
+/* harmony import */ var react__WEBPACK_IMPORTED_MODULE_0___default = /*#__PURE__*/__webpack_require__.n(react__WEBPACK_IMPORTED_MODULE_0__);
+/* harmony import */ var react_bootstrap__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! react-bootstrap */ "./node_modules/react-bootstrap/es/index.js");
+/* harmony import */ var _tutorSlideShow_css__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! ./tutorSlideShow.css */ "./resources/js/components/index/paket/tutorSlideShow.css");
+/* harmony import */ var _tutorSlideShow_css__WEBPACK_IMPORTED_MODULE_2___default = /*#__PURE__*/__webpack_require__.n(_tutorSlideShow_css__WEBPACK_IMPORTED_MODULE_2__);
+/* harmony import */ var react_redux__WEBPACK_IMPORTED_MODULE_3__ = __webpack_require__(/*! react-redux */ "./node_modules/react-redux/es/index.js");
+/* harmony import */ var _TutorCardProfile__WEBPACK_IMPORTED_MODULE_4__ = __webpack_require__(/*! ./TutorCardProfile */ "./resources/js/components/index/paket/TutorCardProfile.js");
+function _typeof(obj) { if (typeof Symbol === "function" && typeof Symbol.iterator === "symbol") { _typeof = function _typeof(obj) { return typeof obj; }; } else { _typeof = function _typeof(obj) { return obj && typeof Symbol === "function" && obj.constructor === Symbol && obj !== Symbol.prototype ? "symbol" : typeof obj; }; } return _typeof(obj); }
+
+function _classCallCheck(instance, Constructor) { if (!(instance instanceof Constructor)) { throw new TypeError("Cannot call a class as a function"); } }
+
+function _defineProperties(target, props) { for (var i = 0; i < props.length; i++) { var descriptor = props[i]; descriptor.enumerable = descriptor.enumerable || false; descriptor.configurable = true; if ("value" in descriptor) descriptor.writable = true; Object.defineProperty(target, descriptor.key, descriptor); } }
+
+function _createClass(Constructor, protoProps, staticProps) { if (protoProps) _defineProperties(Constructor.prototype, protoProps); if (staticProps) _defineProperties(Constructor, staticProps); return Constructor; }
+
+function _possibleConstructorReturn(self, call) { if (call && (_typeof(call) === "object" || typeof call === "function")) { return call; } return _assertThisInitialized(self); }
+
+function _assertThisInitialized(self) { if (self === void 0) { throw new ReferenceError("this hasn't been initialised - super() hasn't been called"); } return self; }
+
+function _getPrototypeOf(o) { _getPrototypeOf = Object.setPrototypeOf ? Object.getPrototypeOf : function _getPrototypeOf(o) { return o.__proto__ || Object.getPrototypeOf(o); }; return _getPrototypeOf(o); }
+
+function _inherits(subClass, superClass) { if (typeof superClass !== "function" && superClass !== null) { throw new TypeError("Super expression must either be null or a function"); } subClass.prototype = Object.create(superClass && superClass.prototype, { constructor: { value: subClass, writable: true, configurable: true } }); if (superClass) _setPrototypeOf(subClass, superClass); }
+
+function _setPrototypeOf(o, p) { _setPrototypeOf = Object.setPrototypeOf || function _setPrototypeOf(o, p) { o.__proto__ = p; return o; }; return _setPrototypeOf(o, p); }
+
+
+
+
+
+
+
+var tutorSlideShow =
+/*#__PURE__*/
+function (_Component) {
+  _inherits(tutorSlideShow, _Component);
+
+  function tutorSlideShow() {
+    _classCallCheck(this, tutorSlideShow);
+
+    return _possibleConstructorReturn(this, _getPrototypeOf(tutorSlideShow).apply(this, arguments));
+  }
+
+  _createClass(tutorSlideShow, [{
+    key: "render",
+    value: function render() {
+      return react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(react__WEBPACK_IMPORTED_MODULE_0__["Fragment"], null, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(react_bootstrap__WEBPACK_IMPORTED_MODULE_1__["Carousel"], null, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(react_bootstrap__WEBPACK_IMPORTED_MODULE_1__["Carousel"].Item, null, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("img", {
+        className: "d-block w-100",
+        src: "/images/book-books-bookshelf-159621.jpg",
+        alt: "First slide"
+      }), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(react_bootstrap__WEBPACK_IMPORTED_MODULE_1__["Carousel"].Caption, null, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("h3", null, "First slide label"), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("p", null, "Nulla vitae elit libero, a pharetra augue mollis interdum."))), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(react_bootstrap__WEBPACK_IMPORTED_MODULE_1__["Carousel"].Item, null, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("img", {
+        className: "d-block w-100",
+        src: "/images/willem and charoly.jpg",
+        alt: "Third slide"
+      }), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(react_bootstrap__WEBPACK_IMPORTED_MODULE_1__["Carousel"].Caption, null, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("h3", null, "Second slide label"), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("p", null, "Lorem ipsum dolor sit amet, consectetur adipiscing elit."))), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(react_bootstrap__WEBPACK_IMPORTED_MODULE_1__["Carousel"].Item, null, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("img", {
+        className: "d-block w-100",
+        src: "/images/book-books-bookshelf-159621.jpg",
+        alt: "Third slide"
+      }), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(react_bootstrap__WEBPACK_IMPORTED_MODULE_1__["Carousel"].Caption, null, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("h3", null, "Third slide label"), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("p", null, "Praesent commodo cursus magna, vel scelerisque nisl consectetur.")))));
+    }
+  }]);
+
+  return tutorSlideShow;
+}(react__WEBPACK_IMPORTED_MODULE_0__["Component"]);
+
+var mapStateToProps = function mapStateToProps(state) {
+  return {};
+};
+
+/* harmony default export */ __webpack_exports__["default"] = (Object(react_redux__WEBPACK_IMPORTED_MODULE_3__["connect"])(mapStateToProps)(tutorSlideShow));
+;
+
+/***/ }),
+
+/***/ "./resources/js/components/index/paket/tutorSlideShow.css":
+/*!****************************************************************!*\
+  !*** ./resources/js/components/index/paket/tutorSlideShow.css ***!
+  \****************************************************************/
+/*! no static exports found */
+/***/ (function(module, exports, __webpack_require__) {
+
+
+var content = __webpack_require__(/*! !../../../../../node_modules/css-loader??ref--6-1!../../../../../node_modules/postcss-loader/src??ref--6-2!./tutorSlideShow.css */ "./node_modules/css-loader/index.js?!./node_modules/postcss-loader/src/index.js?!./resources/js/components/index/paket/tutorSlideShow.css");
+
+if(typeof content === 'string') content = [[module.i, content, '']];
+
+var transform;
+var insertInto;
+
+
+
+var options = {"hmr":true}
+
+options.transform = transform
+options.insertInto = undefined;
+
+var update = __webpack_require__(/*! ../../../../../node_modules/style-loader/lib/addStyles.js */ "./node_modules/style-loader/lib/addStyles.js")(content, options);
+
+if(content.locals) module.exports = content.locals;
+
+if(false) {}
 
 /***/ }),
 

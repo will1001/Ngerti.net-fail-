@@ -1,6 +1,8 @@
 import React, { Component,Fragment } from 'react'
 import { Navbar,Nav,NavDropdown,Form,FormControl,Button,img,Container } from 'react-bootstrap'
-import { Link, animateScroll as scroll } from "react-scroll";
+import { Link as LinkScroll, animateScroll as scroll } from "react-scroll";
+import { Link } from 'react-router-dom'
+
 
 import  './NavbarIndex.css'
 
@@ -28,14 +30,7 @@ import  './NavbarIndex.css'
                 <Navbar bg="dark" variant="dark" expand="lg" fixed="top" id={NavbarBackgroundColor}>
                   <Container fluid="true">
                     <Navbar.Brand href="#about">
-                      <Link
-                        activeClass="active"
-                        to="about"
-                        spy={true}
-                        smooth={true}
-                        offset={0}
-                        duration={1000}
-                      >
+                      <Link to="/" className="text-dark">
                         <img
                         alt=""
                         src="/images/favicon.png"
@@ -52,12 +47,8 @@ import  './NavbarIndex.css'
                         <NavDropdown title="paket" id="basic-nav-dropdown">
                           <NavDropdown.Item href="#paketinstan">
                             <Link
-                              activeClass="active"
-                              to="paketinstan"
-                              spy={true}
-                              smooth={true}
-                              offset={-71}
-                              duration={1000}
+                              to="/paketinstan"
+                              className="text-dark"
                             >
                             paket instan
                             </Link>
@@ -65,12 +56,8 @@ import  './NavbarIndex.css'
                           <NavDropdown.Divider />
                           <NavDropdown.Item href="#paketbulanan">
                             <Link
-                              activeClass="active"
-                              to="paketbulanan"
-                              spy={true}
-                              smooth={true}
-                              offset={-71}
-                              duration={1000}
+                              to="/paketbulanan"
+                              className="text-dark"
                             >
                             paket bulanan
                             </Link>
@@ -78,12 +65,8 @@ import  './NavbarIndex.css'
                           <NavDropdown.Divider />
                           <NavDropdown.Item href="#paketgroup">
                             <Link
-                              activeClass="active"
-                              to="paketgroup"
-                              spy={true}
-                              smooth={true}
-                              offset={-71}
-                              duration={1000}
+                              to="/paketgroup"
+                              className="text-dark"
                             >
                             paket group
                             </Link>
@@ -91,12 +74,8 @@ import  './NavbarIndex.css'
                           <NavDropdown.Divider />
                           <NavDropdown.Item href="#paketintensif">
                             <Link
-                              activeClass="active"
-                              to="paketintensif"
-                              spy={true}
-                              smooth={true}
-                              offset={-71}
-                              duration={1000}
+                              to="/paketintensif"
+                              className="text-dark"
                             >
                             paket intensif
                             </Link>

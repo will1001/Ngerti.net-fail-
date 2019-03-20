@@ -1,10 +1,13 @@
 import React, { Component,Fragment } from 'react'
-import { Row,Col } from 'react-bootstrap'
+import { Form,Col,Row,Container } from 'react-bootstrap'
 import { Link } from 'react-router-dom'
 import ReactDOM from 'react-dom'
 import {connect} from 'react-redux'
 import  './Paket.css'
 import Section from '../Section'
+import FormPaket from './FormPaket'
+import TutorSlideShow from './TutorSlideShow'
+import NavbarIndex from '../NavbarIndex'
 
 
     class Paket extends Component {
@@ -20,20 +23,20 @@ import Section from '../Section'
                 )
             }
          );
-    	grup = (this.props.match.params.paket==='paketgroup') ? '<h1>grup ok</h1>' : null;
+    	grup = (this.props.match.params.paket==='paketgroup') ? 'paketgroup' : null;
     	link = '/#'+this.props.match.params.paket;
         return (
           <Fragment>
-           		<Link to={link}><h1>BACK</h1> </Link>
-                <Section 
-	             id={this.props.paket[paketsection].id} 
-	             title={this.props.paket[paketsection].title}
-	             src={this.props.paket[paketsection].src}
-	             desc={this.props.paket[paketsection].desc}
-	             />
-
-	       <h1>{grup}</h1>
-	             
+              <NavbarIndex/>
+              <Section 
+               id={this.props.paket[paketsection].id} 
+               title={this.props.paket[paketsection].title}
+               src={this.props.paket[paketsection].src}
+               desc={this.props.paket[paketsection].desc}
+               />
+            <Container fluid="true">
+              <FormPaket jenisPaket={grup}/>
+            </Container>
             </Fragment>
         )
       }

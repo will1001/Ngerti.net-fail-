@@ -12,7 +12,7 @@ import  './Section.css'
                 <section id={props.id}>
                    <Row>
                     <Col md="12">
-                        <Link to={link}><h1 className="text-center">{props.title}</h1> </Link>
+                        <Link to={link} className="text-dark"><h1 className="text-center">{props.title}</h1> </Link>
                         <div className="text-center">
                             <img src={props.src} alt="paket" />
                         </div>

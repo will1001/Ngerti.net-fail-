@@ -1,3 +1,4 @@
+.env
 /public/hot
 /storage/*.key
 .phpunit.result.cache
