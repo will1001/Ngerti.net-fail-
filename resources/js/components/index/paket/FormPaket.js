@@ -35,20 +35,12 @@ import { Link,Redirect  } from 'react-router-dom'
             };
           }
 
-          componentDidMount(){
-            fetch('http://127.0.0.1:8000/datamapel')
-            .then(response =>response.json())
-            .then(json => {
-              this.setState({
-                datamapel:json.mapels
-              });
-              console.log(this.state.datamapel)
-            })
+         
 
 
 
 
-          }
+          
 
           handleSubmit(event) {
             const form = event.currentTarget;
@@ -140,11 +132,7 @@ import { Link,Redirect  } from 'react-router-dom'
                       <Form.Label>Mata Pelajaran</Form.Label>
                         <Form.Control as="select" onChange={this.handleMapelChange} required>
                           <option value="" disabled selected>Pilih Mata pelajaran yang anda inginkan</option>
-                          {
-                            this.state.datamapel.map(data => {
-                              return <option key={data.id}>{data.mata_pelajaran}</option>
-                            })
-                          }
+                          
                         </Form.Control>
                       <Form.Control.Feedback type="invalid">Pelajaran Yang anda inginkan belum dipilih</Form.Control.Feedback>
                     </Form.Group>
