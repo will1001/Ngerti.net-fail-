@@ -1,6 +1,6 @@
 import React, { Component,Fragment } from 'react'
 import { Form,Row,Col,Carousel } from 'react-bootstrap'
-import  './tutorSlideShow.css'
+import  './TutorSlideShow.css'
 import {connect} from 'react-redux'
 import TutorCardProfile from './TutorCardProfile'
 

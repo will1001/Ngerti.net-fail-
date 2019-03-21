@@ -6838,9 +6838,9 @@ exports.push([module.i, "", ""]);
 
 /***/ }),
 
-/***/ "./node_modules/css-loader/index.js?!./node_modules/postcss-loader/src/index.js?!./resources/js/components/index/paket/tutorSlideShow.css":
+/***/ "./node_modules/css-loader/index.js?!./node_modules/postcss-loader/src/index.js?!./resources/js/components/index/paket/TutorSlideShow.css":
 /*!************************************************************************************************************************************************!*\
-  !*** ./node_modules/css-loader??ref--6-1!./node_modules/postcss-loader/src??ref--6-2!./resources/js/components/index/paket/tutorSlideShow.css ***!
+  !*** ./node_modules/css-loader??ref--6-1!./node_modules/postcss-loader/src??ref--6-2!./resources/js/components/index/paket/TutorSlideShow.css ***!
   \************************************************************************************************************************************************/
 /*! no static exports found */
 /***/ (function(module, exports, __webpack_require__) {
@@ -84137,6 +84137,21 @@ function (_Component) {
   }
 
   _createClass(FormPaket, [{
+    key: "componentDidMount",
+    value: function componentDidMount() {
+      var _this2 = this;
+
+      fetch('http://127.0.0.1:8000/datamapel').then(function (response) {
+        return response.json();
+      }).then(function (json) {
+        _this2.setState({
+          datamapel: json.mapels
+        });
+
+        console.log(_this2.state.datamapel);
+      });
+    }
+  }, {
     key: "handleSubmit",
     value: function handleSubmit(event) {
       var form = event.currentTarget;
@@ -84221,12 +84236,12 @@ function (_Component) {
   }, {
     key: "render",
     value: function render() {
-      var _this2 = this;
+      var _this3 = this;
 
       var validated = this.state.validated;
       var tutorOption = this.props.tutor.map(function (data, index) {
         return react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(react_bootstrap__WEBPACK_IMPORTED_MODULE_1__["Form"].Check, {
-          onChange: _this2.handletutorChange,
+          onChange: _this3.handletutorChange,
           key: index,
           required: true,
           label: react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(_TutorCardProfile__WEBPACK_IMPORTED_MODULE_4__["default"], null),
@@ -84240,7 +84255,7 @@ function (_Component) {
         noValidate: true,
         validated: validated,
         onSubmit: function onSubmit(e) {
-          return _this2.handleSubmit(e);
+          return _this3.handleSubmit(e);
         },
         action: "/member"
       }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(react_bootstrap__WEBPACK_IMPORTED_MODULE_1__["Form"].Row, null, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(react_bootstrap__WEBPACK_IMPORTED_MODULE_1__["Form"].Group, {
@@ -84255,7 +84270,11 @@ function (_Component) {
         value: "",
         disabled: true,
         selected: true
-      }, "Pilih Mata pelajaran yang anda inginkan")), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(react_bootstrap__WEBPACK_IMPORTED_MODULE_1__["Form"].Control.Feedback, {
+      }, "Pilih Mata pelajaran yang anda inginkan"), this.state.datamapel.map(function (data) {
+        return react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("option", {
+          key: data.id
+        }, data.mata_pelajaran);
+      })), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(react_bootstrap__WEBPACK_IMPORTED_MODULE_1__["Form"].Control.Feedback, {
         type: "invalid"
       }, "Pelajaran Yang anda inginkan belum dipilih"))), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(react_bootstrap__WEBPACK_IMPORTED_MODULE_1__["Form"].Row, null, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(react_bootstrap__WEBPACK_IMPORTED_MODULE_1__["Form"].Group, {
         as: react_bootstrap__WEBPACK_IMPORTED_MODULE_1__["Col"],
@@ -84554,6 +84573,36 @@ var mapStateToProps = function mapStateToProps(state) {
 
 /***/ }),
 
+/***/ "./resources/js/components/index/paket/TutorSlideShow.css":
+/*!****************************************************************!*\
+  !*** ./resources/js/components/index/paket/TutorSlideShow.css ***!
+  \****************************************************************/
+/*! no static exports found */
+/***/ (function(module, exports, __webpack_require__) {
+
+
+var content = __webpack_require__(/*! !../../../../../node_modules/css-loader??ref--6-1!../../../../../node_modules/postcss-loader/src??ref--6-2!./TutorSlideShow.css */ "./node_modules/css-loader/index.js?!./node_modules/postcss-loader/src/index.js?!./resources/js/components/index/paket/TutorSlideShow.css");
+
+if(typeof content === 'string') content = [[module.i, content, '']];
+
+var transform;
+var insertInto;
+
+
+
+var options = {"hmr":true}
+
+options.transform = transform
+options.insertInto = undefined;
+
+var update = __webpack_require__(/*! ../../../../../node_modules/style-loader/lib/addStyles.js */ "./node_modules/style-loader/lib/addStyles.js")(content, options);
+
+if(content.locals) module.exports = content.locals;
+
+if(false) {}
+
+/***/ }),
+
 /***/ "./resources/js/components/index/paket/TutorSlideShow.js":
 /*!***************************************************************!*\
   !*** ./resources/js/components/index/paket/TutorSlideShow.js ***!
@@ -84566,8 +84615,8 @@ __webpack_require__.r(__webpack_exports__);
 /* harmony import */ var react__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! react */ "./node_modules/react/index.js");
 /* harmony import */ var react__WEBPACK_IMPORTED_MODULE_0___default = /*#__PURE__*/__webpack_require__.n(react__WEBPACK_IMPORTED_MODULE_0__);
 /* harmony import */ var react_bootstrap__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! react-bootstrap */ "./node_modules/react-bootstrap/es/index.js");
-/* harmony import */ var _tutorSlideShow_css__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! ./tutorSlideShow.css */ "./resources/js/components/index/paket/tutorSlideShow.css");
-/* harmony import */ var _tutorSlideShow_css__WEBPACK_IMPORTED_MODULE_2___default = /*#__PURE__*/__webpack_require__.n(_tutorSlideShow_css__WEBPACK_IMPORTED_MODULE_2__);
+/* harmony import */ var _TutorSlideShow_css__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! ./TutorSlideShow.css */ "./resources/js/components/index/paket/TutorSlideShow.css");
+/* harmony import */ var _TutorSlideShow_css__WEBPACK_IMPORTED_MODULE_2___default = /*#__PURE__*/__webpack_require__.n(_TutorSlideShow_css__WEBPACK_IMPORTED_MODULE_2__);
 /* harmony import */ var react_redux__WEBPACK_IMPORTED_MODULE_3__ = __webpack_require__(/*! react-redux */ "./node_modules/react-redux/es/index.js");
 /* harmony import */ var _TutorCardProfile__WEBPACK_IMPORTED_MODULE_4__ = __webpack_require__(/*! ./TutorCardProfile */ "./resources/js/components/index/paket/TutorCardProfile.js");
 function _typeof(obj) { if (typeof Symbol === "function" && typeof Symbol.iterator === "symbol") { _typeof = function _typeof(obj) { return typeof obj; }; } else { _typeof = function _typeof(obj) { return obj && typeof Symbol === "function" && obj.constructor === Symbol && obj !== Symbol.prototype ? "symbol" : typeof obj; }; } return _typeof(obj); }
@@ -84633,36 +84682,6 @@ var mapStateToProps = function mapStateToProps(state) {
 
 /* harmony default export */ __webpack_exports__["default"] = (Object(react_redux__WEBPACK_IMPORTED_MODULE_3__["connect"])(mapStateToProps)(tutorSlideShow));
 ;
-
-/***/ }),
-
-/***/ "./resources/js/components/index/paket/tutorSlideShow.css":
-/*!****************************************************************!*\
-  !*** ./resources/js/components/index/paket/tutorSlideShow.css ***!
-  \****************************************************************/
-/*! no static exports found */
-/***/ (function(module, exports, __webpack_require__) {
-
-
-var content = __webpack_require__(/*! !../../../../../node_modules/css-loader??ref--6-1!../../../../../node_modules/postcss-loader/src??ref--6-2!./tutorSlideShow.css */ "./node_modules/css-loader/index.js?!./node_modules/postcss-loader/src/index.js?!./resources/js/components/index/paket/tutorSlideShow.css");
-
-if(typeof content === 'string') content = [[module.i, content, '']];
-
-var transform;
-var insertInto;
-
-
-
-var options = {"hmr":true}
-
-options.transform = transform
-options.insertInto = undefined;
-
-var update = __webpack_require__(/*! ../../../../../node_modules/style-loader/lib/addStyles.js */ "./node_modules/style-loader/lib/addStyles.js")(content, options);
-
-if(content.locals) module.exports = content.locals;
-
-if(false) {}
 
 /***/ }),
 
