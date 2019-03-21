@@ -84141,7 +84141,7 @@ function (_Component) {
     value: function componentDidMount() {
       var _this2 = this;
 
-      fetch('/datamapel').then(function (response) {
+      fetch('http://127.0.0.1:8000/datamapel').then(function (response) {
         return response.json();
       }).then(function (json) {
         _this2.setState({

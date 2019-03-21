@@ -36,7 +36,7 @@ import { Link,Redirect  } from 'react-router-dom'
           }
 
           componentDidMount(){
-            fetch('/datamapel')
+            fetch('http://127.0.0.1:8000/datamapel')
             .then(response =>response.json())
             .then(json => {
               this.setState({
