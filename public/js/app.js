@@ -74550,7 +74550,7 @@ function warning(message) {
 /*!***************************************************************!*\
   !*** ./node_modules/react-router-dom/esm/react-router-dom.js ***!
   \***************************************************************/
-/*! exports provided: MemoryRouter, Prompt, Redirect, Route, Router, StaticRouter, Switch, generatePath, matchPath, withRouter, __RouterContext, BrowserRouter, HashRouter, Link, NavLink */
+/*! exports provided: BrowserRouter, HashRouter, Link, NavLink, MemoryRouter, Prompt, Redirect, Route, Router, StaticRouter, Switch, generatePath, matchPath, withRouter, __RouterContext */
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
@@ -83583,6 +83583,27 @@ var globalState = {
     "title": "Paket Intensif",
     "src": "/images/intensif.png",
     "desc": "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Doloribus, modi eligendi consequuntur iste consequatur animi soluta cum illo explicabo veritatis nisi eaque dicta assumenda repellendus! Sunt molestias similique a consequatur."
+  }],
+  tutorRedux: [{
+    "id": "1",
+    "name": "tutor1",
+    "poto": "/images/favicon.png"
+  }, {
+    "id": "2",
+    "name": "tutor2",
+    "poto": "/images/favicon.png"
+  }, {
+    "id": "3",
+    "name": "tutor3",
+    "poto": "/images/favicon.png"
+  }, {
+    "id": "4",
+    "name": "tutor4",
+    "poto": "/images/favicon.png"
+  }, {
+    "id": "5",
+    "name": "tutor5",
+    "poto": "/images/favicon.png"
   }] //reducer
 
 };
@@ -83717,13 +83738,13 @@ function (_Component) {
     key: "render",
     value: function render() {
       //Section component looping
-      var section = this.props.paket.map(function (singleFile, index) {
+      var section = this.props.paket.map(function (data, index) {
         return react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(_Section__WEBPACK_IMPORTED_MODULE_3__["default"], {
           key: index,
-          id: singleFile.id,
-          title: singleFile.title,
-          src: singleFile.src,
-          desc: singleFile.desc
+          id: data.id,
+          title: data.title,
+          src: data.src,
+          desc: data.desc
         });
       });
       return react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(react__WEBPACK_IMPORTED_MODULE_0__["Fragment"], null, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(_NavbarIndex__WEBPACK_IMPORTED_MODULE_5__["default"], null), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("section", {
@@ -83760,7 +83781,6 @@ var mapStateToProps = function mapStateToProps(state) {
 };
 
 /* harmony default export */ __webpack_exports__["default"] = (Object(react_redux__WEBPACK_IMPORTED_MODULE_4__["connect"])(mapStateToProps)(Index));
-;
 
 /***/ }),
 
@@ -83920,9 +83940,7 @@ function (_Component) {
         className: "text-dark"
       }, "paket intensif"))), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(react_bootstrap__WEBPACK_IMPORTED_MODULE_1__["Nav"].Link, {
         href: "/register"
-      }, "Join as Teacher"), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(react_bootstrap__WEBPACK_IMPORTED_MODULE_1__["Nav"].Link, {
-        href: "/register"
-      }, "Join as Student"), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(react_bootstrap__WEBPACK_IMPORTED_MODULE_1__["Nav"].Link, {
+      }, "Join as Teacher / Student"), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(react_bootstrap__WEBPACK_IMPORTED_MODULE_1__["Nav"].Link, {
         href: "/login"
       }, "Login"))))));
     }
@@ -84060,6 +84078,8 @@ __webpack_require__.r(__webpack_exports__);
 /* harmony import */ var _FormPaket_css__WEBPACK_IMPORTED_MODULE_3__ = __webpack_require__(/*! ./FormPaket.css */ "./resources/js/components/index/paket/FormPaket.css");
 /* harmony import */ var _FormPaket_css__WEBPACK_IMPORTED_MODULE_3___default = /*#__PURE__*/__webpack_require__.n(_FormPaket_css__WEBPACK_IMPORTED_MODULE_3__);
 /* harmony import */ var _TutorCardProfile__WEBPACK_IMPORTED_MODULE_4__ = __webpack_require__(/*! ./TutorCardProfile */ "./resources/js/components/index/paket/TutorCardProfile.js");
+/* harmony import */ var react_redux__WEBPACK_IMPORTED_MODULE_5__ = __webpack_require__(/*! react-redux */ "./node_modules/react-redux/es/index.js");
+/* harmony import */ var react_router_dom__WEBPACK_IMPORTED_MODULE_6__ = __webpack_require__(/*! react-router-dom */ "./node_modules/react-router-dom/esm/react-router-dom.js");
 function _typeof(obj) { if (typeof Symbol === "function" && typeof Symbol.iterator === "symbol") { _typeof = function _typeof(obj) { return typeof obj; }; } else { _typeof = function _typeof(obj) { return obj && typeof Symbol === "function" && obj.constructor === Symbol && obj !== Symbol.prototype ? "symbol" : typeof obj; }; } return _typeof(obj); }
 
 function _classCallCheck(instance, Constructor) { if (!(instance instanceof Constructor)) { throw new TypeError("Cannot call a class as a function"); } }
@@ -84070,9 +84090,9 @@ function _createClass(Constructor, protoProps, staticProps) { if (protoProps) _d
 
 function _possibleConstructorReturn(self, call) { if (call && (_typeof(call) === "object" || typeof call === "function")) { return call; } return _assertThisInitialized(self); }
 
-function _assertThisInitialized(self) { if (self === void 0) { throw new ReferenceError("this hasn't been initialised - super() hasn't been called"); } return self; }
-
 function _getPrototypeOf(o) { _getPrototypeOf = Object.setPrototypeOf ? Object.getPrototypeOf : function _getPrototypeOf(o) { return o.__proto__ || Object.getPrototypeOf(o); }; return _getPrototypeOf(o); }
+
+function _assertThisInitialized(self) { if (self === void 0) { throw new ReferenceError("this hasn't been initialised - super() hasn't been called"); } return self; }
 
 function _inherits(subClass, superClass) { if (typeof superClass !== "function" && superClass !== null) { throw new TypeError("Super expression must either be null or a function"); } subClass.prototype = Object.create(superClass && superClass.prototype, { constructor: { value: subClass, writable: true, configurable: true } }); if (superClass) _setPrototypeOf(subClass, superClass); }
 
@@ -84084,28 +84104,7 @@ function _setPrototypeOf(o, p) { _setPrototypeOf = Object.setPrototypeOf || func
 
 
 
-function CekPaketGrup(props) {
-  var isPaketgrup = props.jenisPaket === 'paketgroup';
 
-  if (isPaketgrup) {
-    return react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(react_bootstrap__WEBPACK_IMPORTED_MODULE_1__["Form"].Row, null, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(react_bootstrap__WEBPACK_IMPORTED_MODULE_1__["Form"].Group, {
-      as: react_bootstrap__WEBPACK_IMPORTED_MODULE_1__["Col"],
-      md: "4",
-      controlId: "formMateri"
-    }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(react_bootstrap__WEBPACK_IMPORTED_MODULE_1__["Form"].Label, null, "Jumlah Group"), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(react_bootstrap__WEBPACK_IMPORTED_MODULE_1__["Form"].Control, {
-      type: "number",
-      min: "1",
-      placeholder: "Isi Jumlah Group yang diinginkan",
-      required: true
-    }), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(react_bootstrap__WEBPACK_IMPORTED_MODULE_1__["Form"].Control.Feedback, {
-      type: "invalid"
-    }, "Isi Jumlah Group yang diinginkan")));
-  } else {
-    return null;
-  }
-}
-
-;
 
 var FormPaket =
 /*#__PURE__*/
@@ -84118,13 +84117,41 @@ function (_Component) {
     _classCallCheck(this, FormPaket);
 
     _this = _possibleConstructorReturn(this, _getPrototypeOf(FormPaket).call(this, props));
+    _this.handleMapelChange = _this.handleMapelChange.bind(_assertThisInitialized(_this));
+    _this.handleTanggalChange = _this.handleTanggalChange.bind(_assertThisInitialized(_this));
+    _this.handleJamChange = _this.handleJamChange.bind(_assertThisInitialized(_this));
+    _this.handleMateriChange = _this.handleMateriChange.bind(_assertThisInitialized(_this));
+    _this.handleJmlGrupChange = _this.handleJmlGrupChange.bind(_assertThisInitialized(_this));
+    _this.handletutorChange = _this.handletutorChange.bind(_assertThisInitialized(_this));
     _this.state = {
-      validated: false
+      datamapel: [],
+      validated: false,
+      mapel: '',
+      tanggal: '',
+      jam: '',
+      materi: '',
+      jmlGrup: '',
+      tutor: ''
     };
     return _this;
   }
 
   _createClass(FormPaket, [{
+    key: "componentDidMount",
+    value: function componentDidMount() {
+      var _this2 = this;
+
+      fetch('/datamapel').then(function (response) {
+        return response.json();
+      }).then(function (json) {
+        _this2.setState({
+          datamapel: json.mapels
+        });
+
+        console.log(_this2.state.datamapel);
+      });
+    }
+  }, {
     key: "handleSubmit",
     value: function handleSubmit(event) {
       var form = event.currentTarget;
@@ -84139,29 +84166,115 @@ function (_Component) {
       });
     }
   }, {
+    key: "handleMapelChange",
+    value: function handleMapelChange(e) {
+      this.setState({
+        mapel: e.target.value
+      });
+    }
+  }, {
+    key: "handleTanggalChange",
+    value: function handleTanggalChange(e) {
+      console.log(e.target.value);
+      this.setState({
+        tanggal: e.target.value
+      });
+    }
+  }, {
+    key: "handleJamChange",
+    value: function handleJamChange(e) {
+      console.log(e.target.value);
+      this.setState({
+        jam: e.target.value
+      });
+    }
+  }, {
+    key: "handleMateriChange",
+    value: function handleMateriChange(e) {
+      this.setState({
+        materi: e.target.value
+      });
+    }
+  }, {
+    key: "handleJmlGrupChange",
+    value: function handleJmlGrupChange(e) {
+      this.setState({
+        jmlGrup: e.target.value
+      });
+    }
+  }, {
+    key: "handletutorChange",
+    value: function handletutorChange(e) {
+      this.setState({
+        tutor: e.target.id
+      });
+    }
+  }, {
+    key: "CekPaketGrup",
+    value: function CekPaketGrup(jenisPaket) {
+      var isPaketgrup = jenisPaket === 'paketgroup';
+
+      if (isPaketgrup) {
+        return react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(react_bootstrap__WEBPACK_IMPORTED_MODULE_1__["Form"].Row, null, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(react_bootstrap__WEBPACK_IMPORTED_MODULE_1__["Form"].Group, {
+          as: react_bootstrap__WEBPACK_IMPORTED_MODULE_1__["Col"],
+          md: "4",
+          controlId: "formMateri"
+        }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(react_bootstrap__WEBPACK_IMPORTED_MODULE_1__["Form"].Label, null, "Jumlah Group"), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(react_bootstrap__WEBPACK_IMPORTED_MODULE_1__["Form"].Control, {
+          type: "number",
+          min: "2",
+          max: "4",
+          placeholder: "Isi Jumlah Group yang diinginkan",
+          onChange: this.handleJmlGrupChange,
+          required: true
+        }), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(react_bootstrap__WEBPACK_IMPORTED_MODULE_1__["Form"].Control.Feedback, {
+          type: "invalid"
+        }, "Isi Jumlah Group yang diinginkan")));
+      } else {
+        return null;
+      }
+    }
+  }, {
     key: "render",
     value: function render() {
-      var _this2 = this;
+      var _this3 = this;
 
       var validated = this.state.validated;
+      var tutorOption = this.props.tutor.map(function (data, index) {
+        return react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(react_bootstrap__WEBPACK_IMPORTED_MODULE_1__["Form"].Check, {
+          onChange: _this3.handletutorChange,
+          key: index,
+          required: true,
+          label: react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(_TutorCardProfile__WEBPACK_IMPORTED_MODULE_4__["default"], null),
+          type: "radio",
+          name: "formTutor",
+          id: data.id,
+          feedback: "Pilih tutor."
+        });
+      });
       return react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(react__WEBPACK_IMPORTED_MODULE_0__["Fragment"], null, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(react_bootstrap__WEBPACK_IMPORTED_MODULE_1__["Form"], {
         noValidate: true,
         validated: validated,
         onSubmit: function onSubmit(e) {
-          return _this2.handleSubmit(e);
-        }
+          return _this3.handleSubmit(e);
+        },
+        action: "/member"
       }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(react_bootstrap__WEBPACK_IMPORTED_MODULE_1__["Form"].Row, null, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(react_bootstrap__WEBPACK_IMPORTED_MODULE_1__["Form"].Group, {
         as: react_bootstrap__WEBPACK_IMPORTED_MODULE_1__["Col"],
         md: "4",
         controlId: "formMapel"
       }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(react_bootstrap__WEBPACK_IMPORTED_MODULE_1__["Form"].Label, null, "Mata Pelajaran"), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(react_bootstrap__WEBPACK_IMPORTED_MODULE_1__["Form"].Control, {
         as: "select",
+        onChange: this.handleMapelChange,
         required: true
       }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("option", {
         value: "",
         disabled: true,
         selected: true
-      }, "Pilih Mata pelajaran yang anda inginkan"), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("option", null, "1"), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("option", null, "2"), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("option", null, "3"), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("option", null, "4"), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("option", null, "5")), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(react_bootstrap__WEBPACK_IMPORTED_MODULE_1__["Form"].Control.Feedback, {
+      }, "Pilih Mata pelajaran yang anda inginkan"), this.state.datamapel.map(function (data) {
+        return react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("option", {
+          key: data.id
+        }, data.mata_pelajaran);
+      })), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(react_bootstrap__WEBPACK_IMPORTED_MODULE_1__["Form"].Control.Feedback, {
         type: "invalid"
       }, "Pelajaran Yang anda inginkan belum dipilih"))), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(react_bootstrap__WEBPACK_IMPORTED_MODULE_1__["Form"].Row, null, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(react_bootstrap__WEBPACK_IMPORTED_MODULE_1__["Form"].Group, {
         as: react_bootstrap__WEBPACK_IMPORTED_MODULE_1__["Col"],
@@ -84170,6 +84283,7 @@ function (_Component) {
       }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(react_bootstrap__WEBPACK_IMPORTED_MODULE_1__["Form"].Label, null, "Jadwal"), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(react_bootstrap__WEBPACK_IMPORTED_MODULE_1__["Form"].Control, {
         type: "date",
         placeholder: "Tanggal",
+        onChange: this.handleTanggalChange,
         required: true
       }), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(react_bootstrap__WEBPACK_IMPORTED_MODULE_1__["Form"].Control.Feedback, {
         type: "invalid"
@@ -84184,6 +84298,7 @@ function (_Component) {
       }, "."), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(react_bootstrap__WEBPACK_IMPORTED_MODULE_1__["Form"].Control, {
         type: "time",
         placeholder: "Jam",
+        onChange: this.handleJamChange,
         required: true
       }), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(react_bootstrap__WEBPACK_IMPORTED_MODULE_1__["Form"].Control.Feedback, {
         type: "invalid"
@@ -84193,37 +84308,15 @@ function (_Component) {
         controlId: "formMateri"
       }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(react_bootstrap__WEBPACK_IMPORTED_MODULE_1__["Form"].Label, null, "Materi"), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(react_bootstrap__WEBPACK_IMPORTED_MODULE_1__["Form"].Control, {
         placeholder: "Tulis materi yang ingin anda pelajari",
+        onChange: this.handleMateriChange,
         required: true
       }), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(react_bootstrap__WEBPACK_IMPORTED_MODULE_1__["Form"].Control.Feedback, {
         type: "invalid"
-      }, "Tulis materi yang ingin anda pelajari"))), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(CekPaketGrup, {
-        jenisPaket: this.props.jenisPaket
-      }), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(react_bootstrap__WEBPACK_IMPORTED_MODULE_1__["Form"].Row, null, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(react_bootstrap__WEBPACK_IMPORTED_MODULE_1__["Form"].Group, {
+      }, "Tulis materi yang ingin anda pelajari"))), this.CekPaketGrup(this.props.jenisPaket), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(react_bootstrap__WEBPACK_IMPORTED_MODULE_1__["Form"].Row, null, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(react_bootstrap__WEBPACK_IMPORTED_MODULE_1__["Form"].Group, {
         as: react_bootstrap__WEBPACK_IMPORTED_MODULE_1__["Col"]
       }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(react_bootstrap__WEBPACK_IMPORTED_MODULE_1__["Form"].Label, null, "Pilih Tutor"))), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(react_bootstrap__WEBPACK_IMPORTED_MODULE_1__["Form"].Group, {
         as: react_bootstrap__WEBPACK_IMPORTED_MODULE_1__["Row"]
-      }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(react_bootstrap__WEBPACK_IMPORTED_MODULE_1__["Form"].Check, {
-        required: true,
-        label: react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(_TutorCardProfile__WEBPACK_IMPORTED_MODULE_4__["default"], null),
-        type: "radio",
-        name: "formHorizontalRadios",
-        id: "formHorizontalRadios1",
-        feedback: "You must agree before submitting1."
-      }), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(react_bootstrap__WEBPACK_IMPORTED_MODULE_1__["Form"].Check, {
-        required: true,
-        label: react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(_TutorCardProfile__WEBPACK_IMPORTED_MODULE_4__["default"], null),
-        type: "radio",
-        name: "formHorizontalRadios",
-        id: "formHorizontalRadios2",
-        feedback: "You must agree before submitting1."
-      }), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(react_bootstrap__WEBPACK_IMPORTED_MODULE_1__["Form"].Check, {
-        required: true,
-        label: react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(_TutorCardProfile__WEBPACK_IMPORTED_MODULE_4__["default"], null),
-        type: "radio",
-        name: "formHorizontalRadios",
-        id: "formHorizontalRadios3",
-        feedback: "You must agree before submitting1."
-      })), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(react_bootstrap__WEBPACK_IMPORTED_MODULE_1__["Button"], {
+      }, tutorOption), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(react_bootstrap__WEBPACK_IMPORTED_MODULE_1__["Button"], {
         type: "submit"
       }, "Order")));
     }
@@ -84232,7 +84325,13 @@ function (_Component) {
   return FormPaket;
 }(react__WEBPACK_IMPORTED_MODULE_0__["Component"]);
 
-/* harmony default export */ __webpack_exports__["default"] = (FormPaket);
+var mapStateToProps = function mapStateToProps(state) {
+  return {
+    tutor: state.tutorRedux
+  };
+};
+
+/* harmony default export */ __webpack_exports__["default"] = (Object(react_redux__WEBPACK_IMPORTED_MODULE_5__["connect"])(mapStateToProps)(FormPaket));
 
 /***/ }),
 

@@ -20,9 +20,15 @@ Route::get('/paket', function () {
     return view('paket/paket');
 });
 
+//API route
+Route::resource('datamapel','mapelAPI');
 
 Auth::routes(['verify' => true]);
 
-Route::get('/home', 'HomeController@index')->name('home')->middleware('verified');
+Route::get('/member', 'HomeController@index')->name('member')->middleware('verified');
 
 Route::view('/{path?}', 'App');
+
+
+
+

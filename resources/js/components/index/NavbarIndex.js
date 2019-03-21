@@ -82,10 +82,7 @@ import  './NavbarIndex.css'
                           </NavDropdown.Item>
                         </NavDropdown>
                         <Nav.Link href="/register">
-                            Join as Teacher
-                        </Nav.Link>
-                        <Nav.Link href="/register">
-                            Join as Student
+                            Join as Teacher / Student
                         </Nav.Link>
                         <Nav.Link href="/login">
                             Login

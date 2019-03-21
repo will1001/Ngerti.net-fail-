@@ -14,14 +14,14 @@ import NavbarIndex from './NavbarIndex'
 
         //Section component looping
         const section = this.props.paket.map(
-            (singleFile,index) => {
+            (data,index) => {
                 return(
                     <Section
                          key={index} 
-                         id={singleFile.id}
-                         title={singleFile.title}
-                         src={singleFile.src}
-                         desc={singleFile.desc}
+                         id={data.id}
+                         title={data.title}
+                         src={data.src}
+                         desc={data.desc}
                        />
                 )
             }
@@ -61,4 +61,4 @@ import NavbarIndex from './NavbarIndex'
         }
     }   
 
-    export default connect(mapStateToProps)(Index);;
+    export default connect(mapStateToProps)(Index);

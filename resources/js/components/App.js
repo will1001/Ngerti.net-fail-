@@ -35,7 +35,34 @@ import Paket from './index/paket/Paket'
           "src":"/images/intensif.png",
           "desc":"Lorem ipsum dolor sit amet, consectetur adipisicing elit. Doloribus, modi eligendi consequuntur iste consequatur animi soluta cum illo explicabo veritatis nisi eaque dicta assumenda repellendus! Sunt molestias similique a consequatur."
         }
-      ] 
+      ],
+      tutorRedux :[
+        { 
+          "id":"1",
+          "name":"tutor1",
+          "poto":"/images/favicon.png",
+        },
+                { 
+          "id":"2",
+          "name":"tutor2",
+          "poto":"/images/favicon.png",
+        },
+                { 
+          "id":"3",
+          "name":"tutor3",
+          "poto":"/images/favicon.png",
+        },
+                { 
+          "id":"4",
+          "name":"tutor4",
+          "poto":"/images/favicon.png",
+        },
+                { 
+          "id":"5",
+          "name":"tutor5",
+          "poto":"/images/favicon.png",
+        },
+      ]  
       
     }
 

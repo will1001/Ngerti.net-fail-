@@ -25,9 +25,9 @@ class HomeController extends Controller
     public function index()
     {
         if(Auth::user()->sebagai == "Teacher"){
-        return view('home');
+        return view('Teacher');
         }elseif(Auth::user()->sebagai == "Student"){
-        return view('home2');
+        return view('Student');
         }
     }
 }

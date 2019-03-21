@@ -12,8 +12,10 @@ import NavbarIndex from '../NavbarIndex'
 
     class Paket extends Component {
    	constructor(props) {
-		super(props);
-	}
+  		super(props);
+  	}
+
+
     render () {
     	let paketsection,grup,link = 0;
     	this.props.paket.map(
