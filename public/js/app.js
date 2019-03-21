@@ -84137,21 +84137,6 @@ function (_Component) {
   }
 
   _createClass(FormPaket, [{
-    key: "componentDidMount",
-    value: function componentDidMount() {
-      var _this2 = this;
-
-      fetch('/datamapel').then(function (response) {
-        return response.json();
-      }).then(function (json) {
-        _this2.setState({
-          datamapel: json.mapels
-        });
-
-        console.log(_this2.state.datamapel);
-      });
-    }
-  }, {
     key: "handleSubmit",
     value: function handleSubmit(event) {
       var form = event.currentTarget;
@@ -84236,12 +84221,12 @@ function (_Component) {
   }, {
     key: "render",
     value: function render() {
-      var _this3 = this;
+      var _this2 = this;
 
       var validated = this.state.validated;
       var tutorOption = this.props.tutor.map(function (data, index) {
         return react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(react_bootstrap__WEBPACK_IMPORTED_MODULE_1__["Form"].Check, {
-          onChange: _this3.handletutorChange,
+          onChange: _this2.handletutorChange,
           key: index,
           required: true,
           label: react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(_TutorCardProfile__WEBPACK_IMPORTED_MODULE_4__["default"], null),
@@ -84255,7 +84240,7 @@ function (_Component) {
         noValidate: true,
         validated: validated,
         onSubmit: function onSubmit(e) {
-          return _this3.handleSubmit(e);
+          return _this2.handleSubmit(e);
         },
         action: "/member"
       }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(react_bootstrap__WEBPACK_IMPORTED_MODULE_1__["Form"].Row, null, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(react_bootstrap__WEBPACK_IMPORTED_MODULE_1__["Form"].Group, {
@@ -84270,11 +84255,7 @@ function (_Component) {
         value: "",
         disabled: true,
         selected: true
-      }, "Pilih Mata pelajaran yang anda inginkan"), this.state.datamapel.map(function (data) {
-        return react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("option", {
-          key: data.id
-        }, data.mata_pelajaran);
-      })), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(react_bootstrap__WEBPACK_IMPORTED_MODULE_1__["Form"].Control.Feedback, {
+      }, "Pilih Mata pelajaran yang anda inginkan")), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(react_bootstrap__WEBPACK_IMPORTED_MODULE_1__["Form"].Control.Feedback, {
         type: "invalid"
       }, "Pelajaran Yang anda inginkan belum dipilih"))), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(react_bootstrap__WEBPACK_IMPORTED_MODULE_1__["Form"].Row, null, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(react_bootstrap__WEBPACK_IMPORTED_MODULE_1__["Form"].Group, {
         as: react_bootstrap__WEBPACK_IMPORTED_MODULE_1__["Col"],

@@ -21,7 +21,7 @@ Route::get('/paket', function () {
 });
 
 //API route
-Route::resource('datamapel','mapelAPI');
+// Route::resource('datamapel','mapelAPI');
 
 Auth::routes(['verify' => true]);
 
